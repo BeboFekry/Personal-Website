@@ -78,6 +78,14 @@ text padding and tokenization in projects as sentiment analysis, and on IMDB cla
 handwritten numbers classification, object detection, etc.""")
 st.write("---")
 
+st.info("Skills")
+st.write("""**Mathematics**  \n• Probability  \n• Statistics  \n• Linear Algebra  \n• Calculus  
+**Data Analysis & Visualization**  \n• Numpy  \n• Pandas  \n• Matplotlib  \n• Seaborn  \n• Microsoft Power BI  
+**Programming**  \n• Python  \n• Java  \n• OOP  \n• SQL  \n• Data Structures & Algorithms  \n• Machine Learning with Scikit-Learn  \n• Deep Learning with Tensorflow & Keras  
+**Deployment**  \n• Flask  \n• Streamlit
+\n""")
+st.write("---")
+
 st.info("Certificates")
 st.write("Artificial Intelligence AI and Internet of Things IoT Training - National Telecommunication Institute NTI")
 # st.image("images/NTI AI and IoT Training Certificate.jpg", caption="National Telecommunication Institute NTI")

@@ -334,7 +334,7 @@ st.write("---")
 
 st.subheader("Brain Tumor Detection")
 st.info("Can to detect brain tumor from MRI and diagnosis their types as 'Glioma_tumor', 'Meningioma_tumor', and 'Pituitary_tumor'")
-st.image(r"D:\Downloads\brain.jpg", caption="Brain Tumor Detection")
+st.image(r"images/brain.jpg", caption="Brain Tumor Detection")
 st.write("---")
 
 st.subheader("Bone Fracture Detection")

@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.toast("Rotate your mobile screen", icon=":material/sync:")
+
 col1, col2, col3, col4 = st.columns([1,2,3,1])
 with col2:
     st.image(r"images/Picsart_24-07-16_16-37-19-394.png")

@@ -248,20 +248,20 @@ col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
     st.image(r"images/chatbot.png", caption="Chatbot Diagnosis")
 with col2:
-    st.image(r"x-ray (4).png", caption="Medical Imaging Scan")
+    st.image(r"images/x-ray (4).png", caption="Medical Imaging Scan")
 with col3:
-    st.image(r"burger.png", caption="Food Calories Scan")
+    st.image(r"images/burger.png", caption="Food Calories Scan")
 with col4:
-    st.image(r"heart-rate (2).png", caption="ECG Scan")
+    st.image(r"images/heart-rate (2).png", caption="ECG Scan")
 with col5:
-    st.image(r"puzzle.png", caption="MBTI Personality Analysis Test")
+    st.image(r"images/puzzle.png", caption="MBTI Personality Analysis Test")
 st.write("---")
 
 # Chatbot feature
 st.header("Chatbot Diagnosis")
 col1, col2 = st.columns([1,3])
 with col1:
-    st.image(r"chatbot.png")
+    st.image(r"images/chatbot.png")
 with col2:
     # st.title("Chatbot Diagnosis")
     st.info("An AI based smart chatbot called \"Caroline\" talking to the patient and taking its disease symptoms, then diagnosing the disease and recommend making some tests as x-ray, MRI ... in addition, given information about the predicted disease as an overview, symptoms, and treatments. It can predict 30 diseases such as (Breast Cancer, Influenza, Covid 19, Stroke, ...)")
@@ -271,7 +271,7 @@ st.write("---")
 st.header("Medical Imaging Scan")
 col1, col2 = st.columns([1,3])
 with col1:
-    st.image(r"x-ray (4).png")
+    st.image(r"images/x-ray (4).png")
 with col2:
     st.info("A sequence of AI Computer Vision models for scanning medical imaging and tests it can scan (X-ray, MRI, CT, OCT, ECG, or Food image), detect the image type (Image Recognition), if it is medical imaging image, applying anatomical recognition, disease evaluation, disease diagnosis. It can predict 25 disease types such as (Bone Fracture, Brain Tumor, Covid 19, Breast Cancer, ...) It also can recognize 101 food types from images and shows the approximate number of calories per gram.")
 st.write("---")
@@ -279,7 +279,7 @@ st.write("---")
 # Food scan feature
 col1, col2 = st.columns([1,3])
 with col1:
-    st.image(r"burger.png")
+    st.image(r"images/burger.png")
 with col2:
     st.header("Food Images Scan")
     st.info("It also can recognize 101 food types from images and shows the approximate number of calories per gram.")
@@ -288,7 +288,7 @@ st.write("---")
 # ECG scan feature
 col1, col2 = st.columns([1,3])
 with col1:
-    st.image(r"heart-rate (2).png")
+    st.image(r"images/heart-rate (2).png")
 with col2:
     st.header("ECG Scan")
     st.info("An ensemble Machine Learning (Random Forest) Model for scan Electrocardiography ECG and diagnosis the heart diseases.")
@@ -297,7 +297,7 @@ st.write("---")
 # MBTI personality test feature
 col1, col2 = st.columns([1,3])
 with col1:
-    st.image(r"puzzle.png")
+    st.image(r"images/puzzle.png")
 with col2:
     st.header("MBTI Personality Test")
     st.info("MBTI personality analysis test that consists of only 20 questions, after answering them you get your personality type and information about it that can help you to take better decision as choosing a school department or career work")

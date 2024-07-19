@@ -20,7 +20,7 @@ st.info("**Age:** 24")
 
 with open ("DS Resume.pdf", "rb") as file:
     btn = st.download_button(
-            label="Download Resume",
+            label="⬇️ Download Resume",
             data=file,
             file_name="Abdallah_Fekry_Data_Science_Resume.pdf",
             mime="text/pdf"

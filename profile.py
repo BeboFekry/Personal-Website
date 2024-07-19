@@ -39,4 +39,4 @@ with col3:
     with col11:
         st.image("images/4844503.png")
     with col22:
-        st.link_button("GitHub", "https://www.kaggle.com/bebofekry")
+        st.link_button("Kaggle", "https://www.kaggle.com/bebofekry")

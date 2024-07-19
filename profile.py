@@ -18,6 +18,15 @@ st.info("**Phone:** +20 111 9499 384")
 st.info("**Location:** Egypt, Cairo")
 st.info("**Age:** 24")
 
+with open ("DS Resume.pdf", "rb") as file:
+    btn = st.download_button(
+            label="Download Resume",
+            data=file,
+            file_name="Abdallah_Fekry_Data_Science_Reusme.png",
+            mime="text/pdf"
+          )
+# st.download_button("")
+
 st.write("---")
 st.write("Social")
 col1, col2, col3 = st.columns(3)

@@ -21,8 +21,8 @@ in real-world projects as a Data Science and Business Analytics intern at The Sp
 at Code Casa, and Machine Learning intern at Prodigy InfoTech.""")
 st.write("---")
 
-profile = st.Page("profile2.py", title="Profile", icon=":material/person:")
-projects = st.Page("projects2.py", title="Projects", icon=":material/work:")
+profile = st.Page("profile.py", title="Profile", icon=":material/person:")
+# projects = st.Page("projects2.py", title="Projects", icon=":material/work:")
 
 st.info("Education")
 st.write("Bachelor’s degree in Computer Science - Culture and Science City C.S.C - 2020-2024  \nGrade: Excellent")

@@ -400,7 +400,7 @@ with col1:
     with col11:
         st.image("images/4844503.png")
     with col22:
-        st.link_button("GitHub", "https://www.kaggle.com/bebofekry")
+        st.link_button("Kaggle", "https://www.kaggle.com/bebofekry")
 with col2:
     st.write("Contact")
     st.caption("Eng. Abdallah Fekry")

@@ -246,15 +246,15 @@ st.write("---")
 st.write("I was responsible for these features")
 col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
-    st.image(r"images\chatbot.png", caption="Chatbot Diagnosis")
+    st.image(r"chatbot.png", caption="Chatbot Diagnosis")
 with col2:
-    st.image(r"images\x-ray (4).png", caption="Medical Imaging Scan")
+    st.image(r"x-ray (4).png", caption="Medical Imaging Scan")
 with col3:
-    st.image(r"images\burger.png", caption="Food Calories Scan")
+    st.image(r"burger.png", caption="Food Calories Scan")
 with col4:
-    st.image(r"images\heart-rate (2).png", caption="ECG Scan")
+    st.image(r"heart-rate (2).png", caption="ECG Scan")
 with col5:
-    st.image(r"images\puzzle.png", caption="MBTI Personality Analysis Test")
+    st.image(r"puzzle.png", caption="MBTI Personality Analysis Test")
 st.write("---")
 
 # Chatbot feature

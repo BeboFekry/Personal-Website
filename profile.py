@@ -22,7 +22,7 @@ with open ("DS Resume.pdf", "rb") as file:
     btn = st.download_button(
             label="Download Resume",
             data=file,
-            file_name="Abdallah_Fekry_Data_Science_Reusme.pdf",
+            file_name="Abdallah_Fekry_Data_Science_Resume.pdf",
             mime="text/pdf"
           )
 # st.download_button("")

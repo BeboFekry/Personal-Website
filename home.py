@@ -211,7 +211,9 @@ st.write("---")
 certificates = st.Page("certificates.py")
 if st.button("View Certificates", use_container_width=1):
     st.switch_page(certificates)
-st.write("---")
+st.write("  \n")
+st.write("  \n")
+st.write("  \n")
 
 st.info("Languages")
 st.write("Arabic (native)")

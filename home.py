@@ -208,6 +208,9 @@ st.write("---")
 st.write("Freelancing Training Program - Egyptian Ministry of Youth and Sports")
 # st.image("images/Abdallah_Fekry_Mohammed20221019-2047-1pathg3.jpg", caption="Great Learning")
 st.write("---")
+certificates = st.Page("certificates.py")
+if st.button("View Certificates"):
+    st.switch_page(certificates)
 
 st.info("Languages")
 st.write("Arabic (native)")

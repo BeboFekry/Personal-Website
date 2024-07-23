@@ -250,7 +250,7 @@ st.image("images/Logo.png", caption="Logo Design")
 st.write("---")
 st.subheader("Poster Design")
 st.write("  \n")
-st.image("images/Banner.png", caption="Banner Design")
+st.image("images/Banner.svg", caption="Banner Design")
 
 st.write("---")
 st.write("I was responsible for these features")

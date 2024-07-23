@@ -27,7 +27,7 @@ profile = st.Page("profile.py", title="Profile", icon=":material/person:")
 # projects = st.Page("projects2.py", title="Projects", icon=":material/work:")
 
 st.info("Education")
-st.write("Bachelor’s degree in Computer Science - Culture and Science City C.S.C - 2020-2024  \nGrade: Excellent")
+st.write("**Bachelor’s degree in Computer Science - Culture and Science City C.S.C - 2020-2024**  \nGrade: Excellent")
 st.write("---")
 
 st.info("Experience")
@@ -221,7 +221,7 @@ st.write("English (very good)")
 st.write("---")
 
 st.info("Graduation Project")
-st.write("As a team leader i have distributed the tasks on the team, i choose to work with Agile methodology so i have made a meeting each one or two weeks with the team members to presenting the work done  \n i was responsible for the AI modules which are:")
+st.write("As a team leader i have distributed the tasks on the team members, i have decided to work with Agile methodology so i was making a meeting each one or two weeks with the team members to presenting the work done  \n i was responsible for the AI modules which are:")
 st.write("""**My part in the project consists of three main modules:**
 
 Module 1: An AI based smart chatbot called "Caroline" talking to the patient 

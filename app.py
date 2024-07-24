@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.logo("images/Logo.png")
+st.logo("images/Picsart_24-07-24_23-25-40-729.png")
 
 home = st.Page("home.py", title="Home", icon=":material/home:", default=True)
 profile = st.Page("profile.py", title="Profile", icon=":material/person:")

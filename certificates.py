@@ -20,7 +20,7 @@ certificates.append({"write":"Java Basic - Hacker Rank","image":"images/java bas
 certificates.append({"write":"SQL Basic - Hacker Rank","image":"images/sql basic.jpg","caption":"Hacker Rank"})
 certificates.append({"write":"Problem Solving Basic - Hacker Rank","image":"images/problem_solving_basic (Hacker Rank).png","caption":"Hacker Rank"})
 certificates.append({"write":"AI for Everyone - Maharatech","image":"images/AI for Everyone - ITI - maharatech en.jpg","caption":"Maharatech"})
-certificates.append({"write":"Python Programming Basics - Maharatech","image":"images/Course_Certificate_En (1)).jpg","caption":"Maharatech"})
+certificates.append({"write":"Python Programming Basics - Maharatech","image":"images/Course_Certificate_En (1).jpg","caption":"Maharatech"})
 certificates.append({"write":"Introduction to Java - Sololearn","image":"images/Introduction to Java_certificate.jpg","caption":"Sololearn"})
 certificates.append({"write":"Introduction to Python - Sololearn","image":"images/Introduction to Python_certificate.jpg","caption":"Sololearn"})
 certificates.append({"write":"Python Intermediate - Sololearn","image":"images/Python Intermediate_certificate.jpg","caption":"Sololearn"})

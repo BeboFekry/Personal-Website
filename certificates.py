@@ -39,7 +39,7 @@ certificates.append({"write":"Freelancing Training Program - Egyptian Ministry o
 
 for i in range len(tabs):
   with tabs[i]:
-    st.write(cert[i]["write"])
-    if cert[i]["image"] != "images/"
-      st.image(cert[i]["image"], caption = cert[i]["caption"])
+    st.write(certificates[i]["write"])
+    if certificates[i]["image"] != "images/"
+      st.image(certificates[i]["image"], caption = certificates[i]["caption"])
 st.write("---")

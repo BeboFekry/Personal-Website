@@ -34,7 +34,7 @@ certificates.append({"write":"Java Programming 3 - Edraak","image":"images/java 
 certificates.append({"write":"Python - Kaggle","image":"images/Abdallah Fekry Mohammed - Python.png","caption":"Kaggle"})
 certificates.append({"write":"Java Programming - Great Learning","image":"images/Abdallah_Fekry_Mohammed20221019-2047-1pathg3.jpg","caption":"Great Learning"})
 certificates.append({"write":"Digital Literacy Training Program - Egyptian Ministry of Youth and Sports","image":"images/","caption":""})
-certificates.append({"write":"Data Analysis & SQL Training Program - Egyptian Ministry of Youth and Sports","image":"images/", "caption"=""})
+certificates.append({"write":"Data Analysis & SQL Training Program - Egyptian Ministry of Youth and Sports","image":"images/", "caption":""})
 certificates.append({"write":"Freelancing Training Program - Egyptian Ministry of Youth and Sports","image":"images/","caption":""})
 
 for i in range len(tabs):

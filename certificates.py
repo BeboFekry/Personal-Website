@@ -37,7 +37,7 @@ certificates.append({"write":"Digital Literacy Training Program - Egyptian Minis
 certificates.append({"write":"Data Analysis & SQL Training Program - Egyptian Ministry of Youth and Sports","image":"images/", "caption":""})
 certificates.append({"write":"Freelancing Training Program - Egyptian Ministry of Youth and Sports","image":"images/","caption":""})
 
-for i in range len(tabs):
+for i in range(len(tabs)):
   with tabs[i]:
     st.write(certificates[i]["write"])
     if certificates[i]["image"] != "images/"

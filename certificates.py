@@ -1,13 +1,14 @@
 import streamlit as st
 
 st.info("Certificates")
-
+# tabs = []
 tabs = st.tabs(29),
 
 for t in tabs:
-  st.write("Artificial Intelligence AI and Internet of Things IoT Training - National Telecommunication Institute NTI")
-  st.image("images/NTI AI and IoT Training Certificate.jpg", caption="National Telecommunication Institute NTI")
-  st.write("---")
+  with t:
+    st.write("Artificial Intelligence AI and Internet of Things IoT Training - National Telecommunication Institute NTI")
+    st.image("images/NTI AI and IoT Training Certificate.jpg", caption="National Telecommunication Institute NTI")
+    st.write("---")
 
 st.write("Artificial Intelligence AI and Internet of Things IoT Training - National Telecommunication Institute NTI")
 st.image("images/NTI AI and IoT Training Certificate.jpg", caption="National Telecommunication Institute NTI")

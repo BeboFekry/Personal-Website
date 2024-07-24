@@ -11,7 +11,7 @@ certificates.append({"write":"Internet of Things Connecting Things IoT CT - Cisc
 certificates.append({"write":"Big Data Essentials Training - National Telecommunication Institute NTI","image":"images/","caption":"National Telecommunication Institute NTI"})
 certificates.append({"write":"Huawei HCIA AI v3.5 - Huawei and the Egyptian Ministry of Youth and Sports","image":"images/","caption":"Huawei"})
 certificates.append({"write":"Data Science and Business Analytics Internship Offer Letter - The Sparks Foundation","image":"images/5VET2JCRLM.png","caption":"The Sparks Foundation"})
-certificates.append({"write":"Data Science and Business Analytics Internship - The Sparks Foundation","image":"images/MUHCQHJ8JR (1)).png","caption":"The Sparks Foundation"})
+certificates.append({"write":"Data Science and Business Analytics Internship - The Sparks Foundation","image":"images/MUHCQHJ8JR (1).png","caption":"The Sparks Foundation"})
 certificates.append({"write":"Machine Learning Internship Offer Letter - Code Casa","image":"images/Abdallah Fekry Mohammed Offer Letter_page-0001.jpg","caption":"Code Casa"})
 certificates.append({"write":"Machine Learning Internship - Code Casa","image":"images/Abdallah Fekry Mohammed Certificate_page-0001.jpg","caption":"Code Casa"})
 certificates.append({"write":"Machine Learning Internship Letter of Recommendation - Code Casa","image":"images/Letter of Recommendation (Code Casa)).jpg","caption":"Code Casa"})

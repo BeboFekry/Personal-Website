@@ -44,7 +44,6 @@ import streamlit as st
 #       st.image(certificates[i]["image"], caption = certificates[i]["caption"])
 # st.write("---")
 
-import stremlit as st
 st.info("Certificates")
 
 

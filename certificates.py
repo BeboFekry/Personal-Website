@@ -27,7 +27,7 @@ certificates.append({"write":"Python Intermediate - Sololearn","image":"images/P
 certificates.append({"write":"Python Developer - Sololearn","image":"images/Python Developer_certificate.jpg","caption":"Sololearn"})
 certificates.append({"write":"Introduction to Programming using Python - Tawar We Ghayaer - Ministry of Youth and Sports - Ministry of Telecommunication - Microsoft","image":"images/python 1.jpg","caption":"Tawar We Ghayar"})
 certificates.append({"write":"Python Programming Language Intermediate Level - Tawar We Ghayaer - Ministry of Youth and Sports - Ministry of Telecommunication - Microsoft","image":"images/python 2.jpg","caption":"Tawar We Ghayar"})
-certificates.append({"write":"Introduction to Python Programming - Edraak","image":"images/download (4)).jpg","caption":"Edraak"})
+certificates.append({"write":"Introduction to Python Programming - Edraak","image":"images/download (4).jpg","caption":"Edraak"})
 certificates.append({"write":"Java Programming 1 - Edraak","image":"images/java 1.jpg","caption":"Edraak"})
 certificates.append({"write":"Java Programming 2 - Edraak","image":"images/java 2.jpg","caption":"Edraak"})
 certificates.append({"write":"Java Programming 3 - Edraak","image":"images/java 3.jpg","caption":"Edraak"})

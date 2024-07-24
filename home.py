@@ -130,9 +130,10 @@ for i in range(len(tabs)):
     st.write(certificates[i]["write"])
     if certificates[i]["image"] != "images/":
       st.image(certificates[i]["image"], caption = certificates[i]["caption"])
-st.write("---")certificates = st.Page("certificates.py")
+st.write("---")
+certificates_page = st.Page("certificates.py")
 if st.button("View Certificates", use_container_width=1):
-    st.switch_page(certificates)
+    st.switch_page(certificates_page)
 st.write("  \n")
 st.write("  \n")
 st.write("  \n")

@@ -6,7 +6,7 @@ st.info("Certificates")
 #   st.write(f'"Certificate {i+1}", ')
 tabs = st.tabs(["Certificate 1","Certificate 2","Certificate 3","Certificate 4","Certificate 5","Certificate 6","Certificate 7","Certificate 8","Certificate 9","Certificate 10","Certificate 11","Certificate 12","Certificate 13","Certificate 14","Certificate 15","Certificate 16","Certificate 17","Certificate 18","Certificate 19","Certificate 20","Certificate 21","Certificate 22","Certificate 23","Certificate 24","Certificate 25","Certificate 26","Certificate 27","Certificate 28","Certificate 29"])
 certificates = []
-certificates.append({"write":"Artificial Intelligence AI and Internet of Things IoT Training - National Telecommunication Institute NTI", "image":"images/NTI AI and IoT Training Certificate.jpg", "caption"="National Telecommunication Institute NTI"})
+certificates.append({"write":"Artificial Intelligence AI and Internet of Things IoT Training - National Telecommunication Institute NTI", "image":"images/NTI AI and IoT Training Certificate.jpg", "caption":"National Telecommunication Institute NTI"})
 certificates.append({"write":"Internet of Things Connecting Things IoT CT - Cisco Networking Academy","image":"images/AbdallahFekry Mohammed-IoT CT-certificate_page-0001.jpg","caption":"Cisco Networking Academy"})
 certificates.append({"write":"Big Data Essentials Training - National Telecommunication Institute NTI","image":"images/","caption":"National Telecommunication Institute NTI"})
 certificates.append({"write":"Huawei HCIA AI v3.5 - Huawei and the Egyptian Ministry of Youth and Sports","image":"images/","caption":"Huawei"})

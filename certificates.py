@@ -3,7 +3,7 @@ import streamlit as st
 st.info("Certificates")
 # tabs = []
 for i in range (29):
-  st.write(f"tab{i}, ")
+  st.write(f"tab{i+1}, ")
 tab1 = st.tabs(29),
 
 for t in tabs:

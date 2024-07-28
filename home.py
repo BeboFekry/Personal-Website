@@ -320,7 +320,7 @@ st.image("images/background.png", caption="Smart Comprehensive Medical System")
 st.write("---")
 
 # Footer
-footer = st.container(border=True)
+footer = st.container(border=True) 
 with footer:
     st.columns([3,1,3])[1].image("images/Picsart_24-07-24_23-25-40-729.png")
     col1, col2, col3 = st.columns(3)

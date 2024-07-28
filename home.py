@@ -326,10 +326,10 @@ with footer:
     col1, col2, col3 = st.columns(3)
     with col1:
         st.write("Services")
-        st.caption("Web App")
-        st.caption("Mobile App")
+        st.caption("Data Science")
+        st.caption("Machine Learning")
         st.write("Social")
-        col11, col22, col33, col44, col5 = st.columns([1,1,1,1,5])
+        col11, col22, col33, col44, col5 = st.columns([1,1,1,1,3])
         with col11:
             st.markdown("[![FB](https://raw.githubusercontent.com/BeboFekry/ChatHub/main/images/702300.png)](http://www.linkedin.com/in/abdallah-fekry)")
         with col22:

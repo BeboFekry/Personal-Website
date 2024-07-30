@@ -89,7 +89,7 @@ st.info("7. Food Types Classification & Calories Identification - Task 5 in Mach
 st.write("The Task is Classification the food types, I have use Deep Learning Computer Vision Inception V3 Architecture to classify the food types then identify their approximation number of calories per gram. The model can detect 101 types of food as 'Frensh fries', 'Pizza', 'Sushi', 'Pancakes', 'Chocolate cake', ...")
 st.columns([1,8,1])[1].image("images/Wallpaper.jpg")
 st.link_button("GitHub Repository To See Implementation Notebooks", "https://github.com/BeboFekry/Prodigy-Infotech-Internship/blob/main/Prodigy-ML-05_Food101_Classification_Calories_Identification_DL.ipynb", use_container_width=1)
-st.link_button("LinkedIn Video", "", use_container_width=1)
+# st.link_button("LinkedIn Video", "", use_container_width=1)
 st.divider()
 
 st.info("8. Titanic Classification - Task 1 in Data Science internship at Code Alpha")

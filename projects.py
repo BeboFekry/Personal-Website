@@ -3,6 +3,19 @@ import streamlit as st
 st.header("Projects")
 st.divider()
 
+background_image = """
+<style>
+[data-testid="stAppViewContainer"] > .main {
+    background-image: url("https://raw.githubusercontent.com/BeboFekry/ChatHub/main/images/background.jpg");
+    background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+</style>
+"""
+
+st.markdown(background_image, unsafe_allow_html=True)
+
 st.info("1. I Care Smart Doctor and Comprehensive Medical System (Graduation Project)")
 st.write("""As a team leader i have distributed the tasks on the team members, i have decided to work with Agile methodology so i was making a meeting each one or two weeks with the team members to presenting the work done
 i was responsible for the AI modules which are:

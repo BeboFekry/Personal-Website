@@ -1,5 +1,19 @@
 import streamlit as st
 
+background_image = """
+<style>
+[data-testid="stAppViewContainer"] > .main {
+    background-image: url("https://raw.githubusercontent.com/BeboFekry/ChatHub/main/images/background.jpg");
+    background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
+    background-position: center;  
+    background-repeat: no-repeat;
+}
+</style>
+"""
+
+st.markdown(background_image, unsafe_allow_html=True)
+
+
 st.toast("Rotate your mobile screen", icon=":material/sync:")
 
 col1, col2, col3, col4 = st.columns([1,2,3,1])

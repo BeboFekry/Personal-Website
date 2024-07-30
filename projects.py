@@ -28,6 +28,7 @@ Collecting the other' work and combining them, making documentation and the pres
 Making algorithm for MBTI personality analysis test""")
 st.columns([1,8,1])[1].image("images/Logo.png")
 st.link_button("GitHub Repository To See Implementation Notebooks and Deployment Codes", "https://github.com/BeboFekry/I_Care_Graduation_Project/tree/main/Artificial_Intelligence", use_container_width=1)
+st.link_button("LinkedIn Video", "https://www.linkedin.com/posts/abdallah-fekry_artificialintelliegence-ai-machinelearning-activity-7197120996053520384-NVmH?utm_source=share&utm_medium=member_desktop", use_container_width=1)
 st.divider()
 
 st.info("2. ChatHub - Easy Building Chatbots and Connect them with Social Media Accounts (Streamlit Project)")

@@ -174,7 +174,7 @@ st.link_button("GitHub Repository To See Implementation Notebooks", "https://git
 st.divider()
 
 st.info("19. Used Cars Complete EDA - Task in Microsoft Learn Student Club Course")
-st.write("Task¶
+st.write("Task
 Deliverables:
 
 Download the data from Kaggle using the given link

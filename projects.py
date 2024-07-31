@@ -174,13 +174,13 @@ st.link_button("GitHub Repository To See Implementation Notebooks", "https://git
 st.divider()
 
 st.info("19. Used Cars Complete EDA - Task in Microsoft Learn Student Club Course")
-st.write("""Task
+st.write("""**Task**  \n
 Deliverables:
 
-Download the data from Kaggle using the given link
-Extract the data
-Assess the data and write down in the notebook as much as issues found as possible
-Clean the data
+Download the data from Kaggle using the given link  \n
+Extract the data  \n
+Assess the data and write down in the notebook as much as issues found as possible  \n
+Clean the data  \n
 Based on your findings and insights, write 6 to 12 business questions and answer them in code""")
 st.columns([1,5,1])[1].image("images/360_F_576768135_pRj1DS7PMyzQRNCKHdxQq2uY2vWWPcrw.jpg")
 st.link_button("GitHub Repository To See Implementation Notebooks", "https://github.com/BeboFekry/Microsoft-Learn-Student-Club/blob/main/MLSC-MidCourse-project-Used-Cars-Complete-EDA.ipynb", use_container_width=1)

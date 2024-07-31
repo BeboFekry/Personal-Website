@@ -172,3 +172,17 @@ st.columns([1,3,1])[1].image("images/handwritten-numbers-vector-260nw-333225059.
 st.link_button("GitHub Repository To See Implementation Notebooks", "https://github.com/BeboFekry/Nationl-Telecommunication-Institute-NTI/blob/main/Task_NN2.ipynb", use_container_width=1)
 # st.link_button("LinkedIn Video", "", use_container_width=1)
 st.divider()
+
+st.info("19. Used Cars Complete EDA - Task in Microsoft Learn Student Club Course")
+st.write("Task¶
+Deliverables:
+
+Download the data from Kaggle using the given link
+Extract the data
+Assess the data and write down in the notebook as much as issues found as possible
+Clean the data
+Based on your findings and insights, write 6 to 12 business questions and answer them in code")
+st.columns([1,3,1])[1].image("images/360_F_576768135_pRj1DS7PMyzQRNCKHdxQq2uY2vWWPcrw.jpg")
+st.link_button("GitHub Repository To See Implementation Notebooks", "https://github.com/BeboFekry/Microsoft-Learn-Student-Club/blob/main/MLSC-MidCourse-project-Used-Cars-Complete-EDA.ipynb", use_container_width=1)
+# st.link_button("LinkedIn Video", "", use_container_width=1)
+st.divider()

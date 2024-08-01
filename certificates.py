@@ -117,7 +117,7 @@ st.image("images/AI for Everyone - ITI - maharatech en.jpg", caption="Maharatech
 st.write("---")
 
 st.write("Python Programming Basics - Maharatech")
-st.image("images/Course_Certificate_En (1).jpg", caption="Maharatech")
+st.image("images/Python Programming Basics Mahara Tech-1.jpg", caption="Maharatech")
 st.write("---")
 
 st.write("Introduction to Java - Sololearn")

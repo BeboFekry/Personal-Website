@@ -41,7 +41,7 @@ profile = st.Page("profile.py", title="Profile", icon=":material/person:")
 # projects = st.Page("projects2.py", title="Projects", icon=":material/work:")
 
 st.info("Education")
-st.write("**Bachelor’s degree in Computer Science - Culture and Science City C.S.C - 2020-2024**  \n**Grade:** Above Very Good with Honors)
+st.write("**Bachelor’s degree in Computer Science - Culture and Science City C.S.C - 2020-2024**  \n**Grade:** Above Very Good with Honors")
 st.write("---")
 
 st.info("Experience")

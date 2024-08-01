@@ -186,3 +186,10 @@ st.columns([1,5,1])[1].image("images/360_F_576768135_pRj1DS7PMyzQRNCKHdxQq2uY2vW
 st.link_button("GitHub Repository To See Implementation Notebooks", "https://github.com/BeboFekry/Microsoft-Learn-Student-Club/blob/main/MLSC-MidCourse-project-Used-Cars-Complete-EDA.ipynb", use_container_width=1)
 # st.link_button("LinkedIn Video", "", use_container_width=1)
 st.divider()
+
+st.info("20. Gender Classification")
+st.write("""Classify Mens and Womans images using Deep Learning - Computer Vision Convolutional Neural Networks CNN Techniques - VGG16 Architecture from data gathering process to deployment process""")
+st.columns([1,3,1])[1].image("images/gender.png")
+st.link_button("GitHub Repository To See Implementation Notebooks", "https://github.com/BeboFekry/Gender-Images-Classification/blob/main/gender-classification.ipynb", use_container_width=1)
+st.link_button("Kaggle Notebook Link", "https://www.kaggle.com/code/bebofekry/gender-classification", use_container_width=1)
+st.divider()

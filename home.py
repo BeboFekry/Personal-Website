@@ -157,7 +157,11 @@ st.write("Arabic (native)")
 st.write("English (very good)")
 st.write("---")
 
-st.info("Graduation Project")
+st.info("Projects")
+projects = st.Page("projects.py")
+if st.button("View All Projects", use_container_width=1):
+    st.switch_page(projects)
+st.subheader("Graduation Project")
 st.write("As a team leader i have distributed the tasks on the team members, i have decided to work with Agile methodology so i was making a meeting each one or two weeks with the team members to presenting the work done  \n i was responsible for the AI modules which are:")
 st.write("""**My part in the project consists of three main modules:**
 

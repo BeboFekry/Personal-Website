@@ -265,7 +265,7 @@ st.image(r"images/fig1-1024x576.png")
 st.write("---")
 
 st.subheader("AI Scan Phases")
-st.image(r"images/AI Mindmap.jpg", caption="Scan Models Phases Mindmap")
+st.image(r"images/AI Mindmap.svg", caption="Scan Models Phases Mindmap")
 st.write("---")
 
 st.subheader("Medical Imaging Scan Diseases")

@@ -304,7 +304,7 @@ st.write("---")
 
 st.subheader("Chest Diseases Detection")
 st.info("Can detect chest diseases from x-rays and diagnosis if there is 'Covid 19' or 'Pneumonia'")
-st.image(r"images/1000_F_757215169_shf3DYxchUW3uYxJ4320yPj9YyoYyq3G.jpg", caption="Chest Diseases Detection")
+st.image(r"images/1e04_gefk_220113.jpg", caption="Chest Diseases Detection")
 st.write("---")
 
 st.subheader("Body Diseases Detection")

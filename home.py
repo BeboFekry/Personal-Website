@@ -228,7 +228,7 @@ col1, col2 = st.columns([1,3])
 with col1:
     st.image(r"images/x-ray (4).png")
 with col2:
-    st.info("A sequence of AI Computer Vision models for scanning medical imaging and tests it can scan (X-ray, MRI, CT, OCT, ECG, or Food image), detect the image type (Image Recognition), if it is medical imaging image, applying anatomical recognition, disease evaluation, disease diagnosis. It can predict 25 disease types such as (Bone Fracture, Brain Tumor, Covid 19, Breast Cancer, ...) It also can recognize 101 food types from images and shows the approximate number of calories per gram.")
+    st.info("A sequence of AI Computer Vision models for scanning medical imaging and tests it can scan (X-ray, MRI, CT, OCT, ECG, or Food image), detect the image type (Image Recognition), if it is medical imaging image, applying anatomical recognition, disease evaluation, disease diagnosis. It can predict 25 disease types such as (Bone Fracture, Brain Tumor, Covid 19, Breast Cancer, ...)")
 st.write("---")
 
 # Food scan feature

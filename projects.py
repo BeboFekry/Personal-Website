@@ -103,7 +103,7 @@ st.divider()
 
 st.info("9. Stock Price Prediction - Task 1 in Machine Learning Internship at Code Casa")
 st.write("""The task is "Stock Price Prediction" i have used Deep Learning LSTM model on AAPL data for the last 6 months from 20/4/2023 to 20/10/2023, and trained the model to take the last 30 days stock prices as input then predict the next price.""")
-st.columns([1,2,1])[1].image("images/Business crisis-amico.png")
+st.columns([1,2,1])[1].image("images/stock procesjpeg.jpeg")
 st.link_button("GitHub Repository To See Implementation Notebooks", "https://github.com/BeboFekry/Code-Casa/blob/main/Stock_Price_Predection_CodeCasa.ipynb", use_container_width=1)
 st.link_button("LinkedIn Video", "https://www.linkedin.com/posts/abdallah-fekry_codecasa-machinelearning-artificialintelligence-activity-7121041794896699393-U0eU?utm_source=share&utm_medium=member_desktop", use_container_width=1)
 st.divider()

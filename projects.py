@@ -187,7 +187,7 @@ st.link_button("GitHub Repository To See Implementation Notebooks", "https://git
 # st.link_button("LinkedIn Video", "", use_container_width=1)
 st.divider()
 
-st.info("20. Gender Classification")
+st.info("20. Images Gender Classification")
 st.write("""Classify Mens and Womans images using Deep Learning - Computer Vision Convolutional Neural Networks CNN Techniques - VGG16 Architecture from data gathering process to deployment process""")
 st.columns([1,5,1])[1].image("images/gender.png")
 st.link_button("GitHub Repository To See Implementation Notebooks", "https://github.com/BeboFekry/Gender-Images-Classification/blob/main/gender-classification.ipynb", use_container_width=1)

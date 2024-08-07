@@ -154,7 +154,7 @@ st.divider()
 
 st.info("16. Stock Price Prediction - Task in NTI AI & IoT Training")
 st.write("Predict Stock Price for Apple Data using Deep Learning LSTM Architecture")
-st.columns([1,8,1])[1].image("images/download.png")
+st.columns([1,8,1])[1].image("images/stock procesjpeg.jpeg")
 st.link_button("GitHub Repository To See Implementation Notebooks", "https://github.com/BeboFekry/Nationl-Telecommunication-Institute-NTI/blob/main/Stock_Price_task_NTI.ipynb", use_container_width=1)
 # st.link_button("LinkedIn Video", "", use_container_width=1)
 st.divider()

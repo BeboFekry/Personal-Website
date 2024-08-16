@@ -26,7 +26,7 @@ with col3:
     st.write("  \n")
     st.write("  \n")
     st.subheader("Eng. Abdallah Fekry")
-    st.write("**Data Scientist**")
+    st.write("**AI Engineer**")
 st.write("---")
 
 st.info("Overview")
@@ -45,6 +45,12 @@ st.write("**Bachelor’s degree in Computer Science - Culture and Science City C
 st.write("---")
 
 st.info("Experience")
+st.write("**Ai Engineer | Electri Pi | August 2024 – Present**
+      \n During the internship, i will work on practical AI projects that provide hands-on experience,
+      \nEngage with a dedicated team and learn the dynamics of teamwork,
+      \nGain insights into the industry and enhance my project management skills.")
+st.write("---")
+
 st.write("**Data Science & Machine Learning | Microsoft Student Clubs by EELU | March 2024 – Present**")
 st.write("---")
 

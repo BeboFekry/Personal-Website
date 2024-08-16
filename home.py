@@ -91,7 +91,7 @@ st.write("""**Data Science and Business Analytics Intern | The Sparks Foundation
 st.write("---")
 
 st.write("""**Artificial Intelligence AI & Internet of Things IoT Trainee | National Telecommunication Institute NTI | September 2023 – October 2023** 
-  \n• During the 1-month (120 hours) Training Program, had the opportunity to dive deep into the AI world. 
+  \nDuring the 1-month (120 hours) Training Program, had the opportunity to dive deep into the AI world. 
   \n• Developed python codes hands-on experience with Artificial Intelligence tools such as Numpy, Pandas, 
     Matplotlib, Seaborn, Scikit-Learn, Keras, and TensorFlow. 
   \n• Mastered AI techniques including mathematics, data preprocessing, cleansing, and visualization while 

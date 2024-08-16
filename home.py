@@ -59,28 +59,29 @@ st.write("**Data Science Intern | Code Alpha | May 2024 - Present**")
 st.write("---")
 
 st.write("""**Big Data Trainee | National Telecommunication Institute NTI | March 2024 – May 2024** 
-  \n• I have learned the Networks & Linux essentials needed for Hadoop platforms. 
-  \n• I learned Python programming, the basic syntax and advanced usage of Python as usage of 
-Numpy, Pandas, Matplotlib, and OOP. 
-  \n• It gives me a brief overview of how to process data using Structured Query Language (SQL). 
-  \n• I have an introduction to Big Data and work on Hadoop platforms.""")
+  \n• Got the foundation of 2 essentials needed for Hadoop platforms Networks & Linux. 
+  \n• Developed an interactive Python programming codes and integrating practical exercises on 5 advanced topics 
+    like OOP, Numpy, Pandas, Matplotlib and Seaborn and improving data handling efficiency. 
+  \n• Develop a completed database, analyze data, apply EDA and ask business questions in a reports using Structured Query Language SQL. 
+  \n• Had the opportunity to start with Big Data tools and techniques and work on Hadoop platforms.""")
 st.write("---")
+
 st.write("""**Machine Learning Intern | Prodigy Infotech | February 2024 – March 2024** 
-  \nDuring the internship, I have hands-on experience on five real-world projects:  
-  \n• Housing price prediction using Multiple Linear Regression algorithm. 
-  \n• Clustering using K-Means algorithm. 
-  \n• Classification using Support Vector Machine SVM algorithm. 
-  \n• Hand Gesture classification using Deep Learning. 
-  \n• Food Classification and identify calories using Deep Learning – CNN. 
-  \n• In addition to the part of Data Analysis, Preprocessing, Cleansing and Visualization.""")
+  \nDuring the internship, I have hands-on experience on 5 real-world projects:
+  \n• Developed 3 Machine Learning projects such as House Price Prediction using Multiple Linear Regression Customer Clustering using K-Means, Dogs and Cats 
+    Classification using Support Vector Machine SVM. 
+  \n• Architected 2 Deep Learning projects such as Hand Gesture classification using Deep Learning, Food Type 
+    Classification and identify calories using Deep Learning CNN. 
+  \n• In addition, the data analysis, cleansing, preprocessing and visualization parts for 5 projects.""")
 st.write("---")
+
 st.write("""**Machine Learning Intern | Code Casa | September 2023 – October 2023** 
-  \nDuring the internship, I have hands-on experience on two real-world projects:  
-  \n• Stock Price Prediction by LSTM model Architecture. 
-  \n• Housing Price Prediction using Multiple Linear Regression Algorithm. 
-  \n• In addition to the part of Data Analysis, Preprocessing, Cleansing and Visualization. 
-  \n• In addition, I got a Letter of Recommendation for the hard work. """)
+  \n•During the internship, I have hands-on experience on 2 real-world projects as Stock Price Prediction using LSTM model architecture and 
+    Housing Price Prediction using Multiple Linear Regression Algorithm.
+  \n• Collect, analyze, preprocess and clean data from 2 datasets then visualize the results for 2 projects. 
+  \n• Received a Letter of Recommendation after the 1-month internship for responsibility and professional work.""")
 st.write("---")
+
 st.write("""**Data Science and Business Analytics Intern | The Sparks Foundation | September 2023 – October 2023** 
   \nDuring the internship, I have hands-on experience on three real-world projects: 
   \n• Prediction using Supervised Learning using Regression Techniques. 
@@ -88,17 +89,18 @@ st.write("""**Data Science and Business Analytics Intern | The Sparks Foundation
   \n• Prediction using Decision Tree Classifier. 
   \n• In addition to the part of Data Analysis, Preprocessing, Cleansing and Visualization""")
 st.write("---")
+
 st.write("""**Artificial Intelligence AI & Internet of Things IoT Trainee | National Telecommunication Institute NTI | September 2023 – October 2023** 
-  \nDuring the 1-month (120 hours) Training Program, I had the opportunity to dive deep into AI world. 
-  \n• Developing python codes from basic loops, condition statements to libraries as Numpy, 
-Pandas, Matplotlib, Seaborn, Scikit-Learn, Keras, and TensorFlow. 
-  \n• Learned Machine Learning techniques and developed projects as ECG classification, etc. 
-  \n• Gained experience in AI techniques from data preprocessing, cleansing, analysis and 
-visualization to machine learning and deep learning algorithms and predictive modelling. 
-  \n• Learned Natural Language Processing basics and applying text preprocessing techniques as 
-text padding and tokenization in projects as sentiment analysis, and on IMDB classification. 
-  \n• Learned the Computer Vision basics and applying projects as chest x-ray diagnosis, 
-handwritten numbers classification, object detection, etc.""")
+  \n• During the 1-month (120 hours) Training Program, had the opportunity to dive deep into the AI world. 
+  \n• Developed python codes hands-on experience with Artificial Intelligence tools such as Numpy, Pandas, 
+    Matplotlib, Seaborn, Scikit-Learn, Keras, and TensorFlow. 
+  \n• Mastered AI techniques including mathematics, data preprocessing, cleansing, and visualization while 
+    implementing machine learning and deep learning algorithms, this knowledge enabled the successful 
+    completion of 10 predictive modeling projects. 
+  \n• Experienced in Natural Language Processing NLP techniques and applying text preprocessing as text 
+    stemming, padding and tokenization in 2 projects as sentiment analysis, and on IMDB classification. 
+  \n• Experienced in Computer Vision techniques as CNN, RNN, LSTM, etc. and applying 5 projects as chest 
+    Xray diagnosis, handwritten numbers classification, object detection, face recognition, etc. """)
 st.write("---")
 
 st.info("Skills")

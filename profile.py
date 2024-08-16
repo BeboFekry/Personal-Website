@@ -22,7 +22,7 @@ with col2:
     st.write("  \n")
     st.write("  \n")
     st.subheader("Abdallah Fekry")
-    st.write("**Data Scientist**")
+    st.write("**AI Engineer**")
 st.write("---")
 
 st.info("**Name:** Abdallah Fekry Mohammed")

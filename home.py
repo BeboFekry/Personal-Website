@@ -30,11 +30,12 @@ with col3:
 st.write("---")
 
 st.info("Overview")
-st.write("""As a Computer Science enthusiast with an excellent academic background, I am determined to make a significant impact 
-in the tech industry. I've had the privilege of gaining hands-on experience as an AI and IoT Trainee at NTI and Big Data 
-Trainee at NTI. This experience has honed my skills and fueled my passion for innovation. I also have hands-on experience 
-in real-world projects as a Data Science and Business Analytics intern at The Sparks Foundation, Machine Learning intern 
-at Code Casa, and Machine Learning intern at Prodigy InfoTech.""")
+st.write("""As a computer science enthusiast with a great academic background with grade very good with honors, 
+    I am determined to make a significant impact in the tech industry. 
+    I've had the privilege of gaining hands-on experience as an AI Engineer in internship opportunity at Electro Pi working on variety of real-world projects, 
+    Artificial Intelligence (AI) and Internet of Things (IoT) trainee and Big Data treinee at National Telecommunication Institute NTI. 
+    This experience has honed my skills and fueled my passion for innovation. I also have hands-on experience in real-world projects as i was 
+    Data Science and Business Analytics intern at The Sparks Foundation, Machine Learning intern at Code Casa, and finally, Machine Learning intern at Prodigy InfoTech.""")
 st.write("---")
 
 profile = st.Page("profile.py", title="Profile", icon=":material/person:")

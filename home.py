@@ -47,9 +47,9 @@ st.write("---")
 
 st.info("Experience")
 st.write("""**Ai Engineer | Electro Pi | internship | August 2024 – Present**
-      \n During the internship, i will work on practical AI projects that provide hands-on experience,
-      \nEngage with a dedicated team and learn the dynamics of teamwork,
-      \nGain insights into the industry and enhance my project management skills.""")
+      \n• During the internship, i will work on practical AI projects that provide hands-on experience,
+      \n• Engage with a dedicated team and learn the dynamics of teamwork,
+      \n• Gain insights into the industry and enhance my project management skills.""")
 st.write("---")
 
 st.write("**Data Science & Machine Learning | Microsoft Student Clubs by EELU | March 2024 – Present**")
@@ -76,7 +76,7 @@ st.write("""**Machine Learning Intern | Prodigy Infotech | February 2024 – Mar
 st.write("---")
 
 st.write("""**Machine Learning Intern | Code Casa | September 2023 – October 2023** 
-  \n•During the internship, I have hands-on experience on 2 real-world projects as Stock Price Prediction using LSTM model architecture and 
+  \n• During the internship, I have hands-on experience on 2 real-world projects as Stock Price Prediction using LSTM model architecture and 
     Housing Price Prediction using Multiple Linear Regression Algorithm.
   \n• Collect, analyze, preprocess and clean data from 2 datasets then visualize the results for 2 projects. 
   \n• Received a Letter of Recommendation after the 1-month internship for responsibility and professional work.""")

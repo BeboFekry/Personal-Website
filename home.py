@@ -13,8 +13,9 @@ background_image = """
 
 st.markdown(background_image, unsafe_allow_html=True)
 
-
-st.toast("Rotate your mobile screen", icon=":material/sync:")
+if st.session_state.first_time:
+    st.toast("Rotate your mobile screen", icon=":material/sync:")
+    st.session_state.first_time = False
 
 col1, col2, col3, col4 = st.columns([1,2,3,1])
 with col2:

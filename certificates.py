@@ -73,7 +73,7 @@ st.subheader("Big Data Essentials Training - National Telecommunication Institut
 st.write("---")
 
 st.subheader("Huawei HCIA AI v3.5 - Huawei and the Egyptian Ministry of Youth and Sports")
-# st.image("images/test/", caption="Huawei")
+st.image("images/Huawei HCIA Certificate.jpg", caption="Huawei")
 st.write("---")
 
 st.subheader("Data Science and Business Analytics Internship Offer Letter - The Sparks Foundation")

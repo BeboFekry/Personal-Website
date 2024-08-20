@@ -156,7 +156,6 @@ for i in range(len(tabs)):
 certificates_page = st.Page("certificates.py")
 st.write("  \n")
 st.write("  \n")
-st.write("  \n")
 if st.button("View All Certificates", use_container_width=1):
     st.switch_page(certificates_page)
 st.write("---")

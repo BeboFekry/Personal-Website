@@ -112,6 +112,18 @@ st.subheader("Problem Solving Basic - Hacker Rank")
 st.image("images/problem_solving_basic (Hacker Rank).png", caption="Hacker Rank")
 st.write("---")
 
+st.subheader("Langchain Foundation - AlCamp - during Electro Pi Internship")
+st.image("images/Langchain Foundation AlCamp Electro Pi Certificate.jpg", caption="AlCamp - Electro Pi")
+st.write("---")
+
+st.subheader("RAG Foundation - Alcamp - during Electro Pi Internship")
+st.image("images/RAG Foundation AlCamp Electro Pi Certificate.jpg", caption="AlCamp - Electro Pi")
+st.write("---")
+
+st.subheader("Langchain with RAG Path - Alcamp - during Electro Pi Internship")
+st.image("images/Langchain with RAG path AlCamp Electro Pi Certificate.jpg", caption="AlCamp - Electro Pi")
+st.write("---")
+
 st.subheader("AI for Everyone - Maharatech")
 st.image("images/AI for Everyone - ITI - maharatech en.jpg", caption="Maharatech")
 st.write("---")

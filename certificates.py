@@ -181,13 +181,13 @@ st.image("images/Abdallah_Fekry_Mohammed20221019-2047-1pathg3.jpg", caption="Gre
 st.write("---")
 
 st.subheader("Digital Literacy Training Program - Egyptian Ministry of Youth and Sports")
-# st.image("images/", caption="")
+st.image("images/Digital Literacy Training Certificate.jpg")
 st.write("---")
 
 st.subheader("Data Analysis & SQL Training Program - Egyptian Ministry of Youth and Sports")
-# st.image("images/ caption="Great Learning")
+st.image("images/SQL & Data Analysis Training Certificate.jpg")
 st.write("---")
 
-st.subheader("Freelancing Training Program - Egyptian Ministry of Youth and Sports")
-# st.image("images/", caption="Great Learning")
+st.subheader("Introductory Advanced Technologies Training Program - Egyptian Ministry of Youth and Sports")
+st.image("images/Introductory Advanced Technologies Training Certificate.jpg")
 st.write("---")

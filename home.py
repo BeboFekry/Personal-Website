@@ -149,10 +149,9 @@ certificates.append({"write":"Java Programming 2 - Edraak","image":"images/java 
 certificates.append({"write":"Java Programming 3 - Edraak","image":"images/java 3.jpg","caption":"Edraak"})
 certificates.append({"write":"Python - Kaggle","image":"images/Abdallah Fekry Mohammed - Python.png","caption":"Kaggle"})
 certificates.append({"write":"Java Programming - Great Learning","image":"images/Abdallah_Fekry_Mohammed20221019-2047-1pathg3.jpg","caption":"Great Learning"})
-certificates.append({"write":"Digital Literacy Training Program - Egyptian Ministry of Youth and Sports","image":"images/","caption":""})
-certificates.append({"write":"Data Analysis & SQL Training Program - Egyptian Ministry of Youth and Sports","image":"images/", "caption":""})
-certificates.append({"write":"Freelancing Training Program - Egyptian Ministry of Youth and Sports","image":"images/","caption":""})
-
+certificates.append({"write":"Digital Literacy Training Program - Egyptian Ministry of Youth and Sports","image":"images/Digital Literacy Training Certificate.jpg","caption":""})
+certificates.append({"write":"SQL & Data Analysis Training Program - Egyptian Ministry of Youth and Sports","image":"images/SQL & Data Analysis Training Certificate.jpg", "caption":""})
+certificates.append({"write":"Introductory Advanced Technologies Training Program - Egyptian Ministry of Youth and Sports","image":"images/Introductory Advanced Technologies Training Certificate.jpg", "caption":""})
 for i in range(len(tabs)):
   with tabs[i]:
     st.write(certificates[i]["write"])

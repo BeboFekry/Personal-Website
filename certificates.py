@@ -69,7 +69,7 @@ st.image("images/AbdallahFekry Mohammed-IoT CT-certificate_page-0001.jpg", capti
 st.write("---")
 
 st.subheader("Big Data Essentials Training - National Telecommunication Institute NTI")
-# st.image("images/", caption="National Telecommunication Institute NTI")
+st.image("images/Big Data Essentials NTI.jpg", caption="National Telecommunication Institute NTI")
 st.write("---")
 
 st.subheader("Huawei HCIA AI v3.5 - Huawei and the Egyptian Ministry of Youth and Sports")

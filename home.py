@@ -121,7 +121,7 @@ tabs = st.tabs(["Certificate 1","Certificate 2","Certificate 3","Certificate 4",
 certificates = []
 certificates.append({"write":"Artificial Intelligence AI and Internet of Things IoT Training - National Telecommunication Institute NTI", "image":"images/NTI AI and IoT Training Certificate.jpg", "caption":"National Telecommunication Institute NTI"})
 certificates.append({"write":"Internet of Things Connecting Things IoT CT - Cisco Networking Academy","image":"images/AbdallahFekry Mohammed-IoT CT-certificate_page-0001.jpg","caption":"Cisco Networking Academy"})
-certificates.append({"write":"Big Data Essentials Training - National Telecommunication Institute NTI","image":"images/","caption":"National Telecommunication Institute NTI"})
+certificates.append({"write":"Big Data Essentials Training - National Telecommunication Institute NTI","image":"images/Big Data Essentials NTI.jpg","caption":"National Telecommunication Institute NTI"})
 certificates.append({"write":"Huawei HCIA AI v3.5 - Huawei and the Egyptian Ministry of Youth and Sports","image":"images/Huawei HCIA Certificate.jpg","caption":"Huawei & Egyptian Ministry of Youth and Sports"})
 certificates.append({"write":"Data Science and Business Analytics Internship Offer Letter - The Sparks Foundation","image":"images/5VET2JCRLM.png","caption":"The Sparks Foundation"})
 certificates.append({"write":"Data Science and Business Analytics Internship - The Sparks Foundation","image":"images/MUHCQHJ8JR (1).png","caption":"The Sparks Foundation"})

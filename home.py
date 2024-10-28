@@ -52,7 +52,7 @@ st.write("""**Ai Engineer | Electro Pi | internship | August 2024 – October 20
       \n• Developed NLP Techniques as LLM using LangChain and RAG for making customized chatbots to answer business questions. 
       \n• Applied the Computer Vision Techniques as OCR for using in invoicing systems and connect it with LLM to extract the data and add it to a database for the system. 
       \n• Working with other techniques as Speech Recognition (voice to text) and (text to voice), Wav2Lip for Lip Syncing for making human like chatbots.
-      \n• Working individually and as a part of a team using Agile methodology.
+      \n• Working individually and as a part of a team using Agile methodology.""")
 st.write("---")
 
 st.write("**Data Science & Machine Learning | Microsoft Student Clubs by EELU | March 2024 – Present**")

@@ -1,7 +1,9 @@
 import streamlit as st
 
 # url = "https://github.com/BeboFekry/Personal-Website/blob/main/Blue%20Futuristic%20Technology%20Presentation%20(2).gif"
-url = r"https://raw.githubusercontent.com/BeboFekry/Personal-Website/refs/heads/main/Blue%20Futuristic%20Technology%20Presentation.gif"
+url = r"https://github.com/BeboFekry/Personal-Website/blob/main/Blue%20Futuristic%20Technology%20Presentation.gif?raw=true"
+# url = r"https://raw.githubusercontent.com/BeboFekry/Personal-Website/refs/heads/main/Blue%20Futuristic%20Technology%20Presentation.gif"
+
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {

@@ -47,10 +47,12 @@ st.write("**Bachelor’s degree BSc in Computer Science - Culture and Science Ci
 st.write("---")
 
 st.info("Experience")
-st.write("""**Ai Engineer | Electro Pi | internship | August 2024 – Present**
-      \n• During the internship, i will work on practical AI projects that provide hands-on experience,
-      \n• Engage with a dedicated team and learn the dynamics of teamwork,
-      \n• Gain insights into the industry and enhance my project management skills.""")
+st.write("""**Ai Engineer | Electro Pi | internship | August 2024 – October 2024**
+      \n• Developed more than 8 AI projects in NLP, LLM, Computer Vision, and Speech Recognition. 
+      \n• Developed NLP Techniques as LLM using LangChain and RAG for making customized chatbots to answer business questions. 
+      \n• Applied the Computer Vision Techniques as OCR for using in invoicing systems and connect it with LLM to extract the data and add it to a database for the system. 
+      \n• Working with other techniques as Speech Recognition (voice to text) and (text to voice), Wav2Lip for Lip Syncing for making human like chatbots.
+      \n• Working individually and as a part of a team using Agile methodology.
 st.write("---")
 
 st.write("**Data Science & Machine Learning | Microsoft Student Clubs by EELU | March 2024 – Present**")

@@ -59,7 +59,6 @@ st.markdown(background_image, unsafe_allow_html=True)
 
 st.info("Certificates")
 
-
 st.subheader("Artificial Intelligence AI and Internet of Things IoT Training - National Telecommunication Institute NTI")
 st.image("images/NTI AI and IoT Training Certificate.jpg", caption="National Telecommunication Institute NTI")
 st.write("---")
@@ -74,6 +73,10 @@ st.write("---")
 
 st.subheader("Huawei HCIA AI v3.5 - Huawei and the Egyptian Ministry of Youth and Sports")
 st.image("images/Huawei HCIA Certificate.jpg", caption="Huawei & Egyptian Ministry of Youth and Sports")
+st.write("---")
+
+st.subheader("Data Science & Machine Learning Course - Microsoft Learn Student Clubs MLSC")
+st.image("images/Data Science & Machine Learning Course (Microsoft Learn Student Clubs MLSC) _page-0001.jpg", caption="Microsoft Learn Student Clubs MLSC")
 st.write("---")
 
 st.subheader("Data Science and Business Analytics Internship Offer Letter - The Sparks Foundation")

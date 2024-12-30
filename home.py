@@ -119,12 +119,14 @@ st.info("Certificates")
 # # # tabs = []
 # for i in range (29):
 #   st.write(f'"Certificate {i+1}", ')
-tabs = st.tabs(["Certificate 1","Certificate 2","Certificate 3","Certificate 4","Certificate 5","Certificate 6","Certificate 7","Certificate 8","Certificate 9","Certificate 10","Certificate 11","Certificate 12","Certificate 13","Certificate 14","Certificate 15","Certificate 16","Certificate 17","Certificate 18","Certificate 19","Certificate 20","Certificate 21","Certificate 22","Certificate 23","Certificate 24","Certificate 25","Certificate 26","Certificate 27","Certificate 28","Certificate 29","Certificate 30","Certificate 31","Certificate 32","Certificate 33"])
+tabs = st.tabs(["Certificate 1","Certificate 2","Certificate 3","Certificate 4","Certificate 5","Certificate 6","Certificate 7","Certificate 8","Certificate 9","Certificate 10","Certificate 11","Certificate 12","Certificate 13","Certificate 14","Certificate 15","Certificate 16","Certificate 17","Certificate 18","Certificate 19","Certificate 20","Certificate 21","Certificate 22","Certificate 23","Certificate 24","Certificate 25","Certificate 26","Certificate 27","Certificate 28","Certificate 29","Certificate 30","Certificate 31","Certificate 32","Certificate 33","Certificate 34","Certificate 35"])
 certificates = []
+certificates.append({"write":"AI 2-months internship Completion Certificate - Electro P", "image":"images/AI internship Certificate (Electro Pi).jpg", "caption":"Electro Pi"})
 certificates.append({"write":"Artificial Intelligence AI and Internet of Things IoT Training - National Telecommunication Institute NTI", "image":"images/NTI AI and IoT Training Certificate.jpg", "caption":"National Telecommunication Institute NTI"})
-certificates.append({"write":"Internet of Things Connecting Things IoT CT - Cisco Networking Academy","image":"images/AbdallahFekry Mohammed-IoT CT-certificate_page-0001.jpg","caption":"Cisco Networking Academy"})
 certificates.append({"write":"Big Data Essentials Training - National Telecommunication Institute NTI","image":"images/Big Data Essentials NTI.jpg","caption":"National Telecommunication Institute NTI"})
 certificates.append({"write":"Huawei HCIA AI v3.5 - Huawei and the Egyptian Ministry of Youth and Sports","image":"images/Huawei HCIA Certificate.jpg","caption":"Huawei & Egyptian Ministry of Youth and Sports"})
+certificates.append({"write":"Data Science & Machine Learning Course - Microsoft Learn Student Clubs MLSC","image":"images/Data Science & Machine Learning Course (Microsoft Learn Student Clubs MLSC) _page-0001.jpg","caption":"Microsoft Learn Student Clubs MLSC"})
+certificates.append({"write":"Internet of Things Connecting Things IoT CT - Cisco Networking Academy","image":"images/AbdallahFekry Mohammed-IoT CT-certificate_page-0001.jpg","caption":"Cisco Networking Academy"})
 certificates.append({"write":"Data Science and Business Analytics Internship Offer Letter - The Sparks Foundation","image":"images/5VET2JCRLM.png","caption":"The Sparks Foundation"})
 certificates.append({"write":"Data Science and Business Analytics Internship - The Sparks Foundation","image":"images/MUHCQHJ8JR (1).png","caption":"The Sparks Foundation"})
 certificates.append({"write":"Machine Learning Internship Offer Letter - Code Casa","image":"images/Abdallah Fekry Mohammed Offer Letter_page-0001.jpg","caption":"Code Casa"})

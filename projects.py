@@ -17,13 +17,7 @@ background_image = """
 st.markdown(background_image, unsafe_allow_html=True)
 
 st.info("1. I Care Smart Doctor and Comprehensive Medical System (Graduation Project)")
-st.write("""### Test Run Video
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_nqm8FuEdLA/0.jpg)](https://www.youtube.com/watch?v=_nqm8FuEdLA)
-
----
-
-As a team leader i have distributed the tasks on the team members, i have decided to work with Agile methodology so i was making a meeting each one or two weeks with the team members to presenting the work done
+st.write("""As a team leader i have distributed the tasks on the team members, i have decided to work with Agile methodology so i was making a meeting each one or two weeks with the team members to presenting the work done
 i was responsible for the AI modules which are:
 
 ### My part in the project consists of three main modules:
@@ -46,6 +40,7 @@ applying anatomical recognition, disease evaluation, disease diagnosis, and also
 """)
 st.columns([1,8,1])[1].image("images/Logo.png")
 st.link_button("GitHub Repository", "https://github.com/BeboFekry/I_Care_Graduation_Project/tree/main/Artificial_Intelligence", use_container_width=1)
+st.link_button("Publication Link", "https://app.readytensor.ai/publications/i_care_-_smart_doctor_-_comprehensive_medical_system_sZgWGLbCUMiS", use_container_width=1)
 st.link_button("YouTube Video", "https://youtu.be/_nqm8FuEdLA?si=c2eDVRqfAqKxlD__", use_container_width=1)
 st.link_button("LinkedIn Video", "https://www.linkedin.com/posts/abdallah-fekry_artificialintelliegence-ai-machinelearning-activity-7197120996053520384-NVmH?utm_source=share&utm_medium=member_desktop", use_container_width=1)
 st.divider()

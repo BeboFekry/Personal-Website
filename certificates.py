@@ -59,12 +59,12 @@ st.markdown(background_image, unsafe_allow_html=True)
 
 st.info("Certificates")
 
-st.subheader("Artificial Intelligence AI and Internet of Things IoT Training - National Telecommunication Institute NTI")
-st.image("images/NTI AI and IoT Training Certificate.jpg", caption="National Telecommunication Institute NTI")
+st.subheader("AI 2-months internship Completion Certificate - Electro Pi")
+st.image("images/AI internship Certificate (Electro Pi).jpg", caption="Electro Pi")
 st.write("---")
 
-st.subheader("Internet of Things Connecting Things IoT CT - Cisco Networking Academy")
-st.image("images/AbdallahFekry Mohammed-IoT CT-certificate_page-0001.jpg", caption="Cisco Networking Academy")
+st.subheader("Artificial Intelligence AI and Internet of Things IoT Training - National Telecommunication Institute NTI")
+st.image("images/NTI AI and IoT Training Certificate.jpg", caption="National Telecommunication Institute NTI")
 st.write("---")
 
 st.subheader("Big Data Essentials Training - National Telecommunication Institute NTI")
@@ -77,6 +77,10 @@ st.write("---")
 
 st.subheader("Data Science & Machine Learning Course - Microsoft Learn Student Clubs MLSC")
 st.image("images/Data Science & Machine Learning Course (Microsoft Learn Student Clubs MLSC) _page-0001.jpg", caption="Microsoft Learn Student Clubs MLSC")
+st.write("---")
+
+st.subheader("Internet of Things Connecting Things IoT CT - Cisco Networking Academy")
+st.image("images/AbdallahFekry Mohammed-IoT CT-certificate_page-0001.jpg", caption="Cisco Networking Academy")
 st.write("---")
 
 st.subheader("Data Science and Business Analytics Internship Offer Letter - The Sparks Foundation")

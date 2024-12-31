@@ -19,7 +19,8 @@ if st.session_state.first_time:
 
 col1, col2, col3, col4 = st.columns([1,2,3,1])
 with col2:
-    st.image(r"images/Picsart_24-07-16_16-37-19-394.png")
+    #st.image(r"images/Picsart_24-07-16_16-37-19-394.png")
+    st.image(r"images/20241231_053847.png")
 with col3:
     st.write("  \n")
     st.write("  \n")

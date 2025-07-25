@@ -47,10 +47,10 @@ st.link_button("LinkedIn Demo Video", "https://www.linkedin.com/posts/abdallah-f
 st.divider()
 
 st.info("2. Smart ATS using Langchain and RAG")
-st.write("""• Collected data from several resources as resume pdf documents using pdf plumber file scrappers, resume images using OCR model, text from CSV files using Pandas, then store all data into a Vector Database using Chroma DB.
-• Built a retrieval system that retrieved most similar documents to the job description.
-• Embedded an LLM model to collect and reformat the retrieved documents and the job description to recommend the best candidate fit the job.
-• Designed a user friendly graphical interface using Streamlit with a integrated job description samples to try and testing the app.
+st.write("""* Collected data from several resources as resume pdf documents using pdf plumber file scrappers, resume images using OCR model, text from CSV files using Pandas, then store all data into a Vector Database using Chroma DB.
+* Built a retrieval system that retrieved most similar documents to the job description.
+* Embedded an LLM model to collect and reformat the retrieved documents and the job description to recommend the best candidate fit the job.
+* Designed a user friendly graphical interface using Streamlit with a integrated job description samples to try and testing the app.
 Key Skills: LangChain · Retrieval-Augmented Generation (RAG) · Pandas (Software) · Python (Programming Language) · Optical Character Recognition (OCR) · ChromaDB · Streamlit""")
 st.columns([1,1,1])[1].image("images/Chat bot-pana.png")
 st.link_button("GitHub Repository To See Implementation Notebooks and Deployment Codes", "https://github.com/BeboFekry/Smart-ATS-System-using-RAG", use_container_width=1)
@@ -58,10 +58,18 @@ st.link_button("GitHub Repository To See Implementation Notebooks and Deployment
 st.divider()
 
 st.info("3. Smart Summarizer using Langchain and Web Scrapping")
-# st.write("""Explaination""")
+st.write("""* Using LLM for Summarize text documents to focus only on the important topics and answer the questions about it. 
+Scrapping and summaryzing text, pdf and text document files, web contents, LinkedIn posts, pdf, and YouTube videos content.
+## Key Points
+* Scrapping web pages to get web content.
+* Scrapping YouTube videos links to get text subtitles in Arabic or English languages.
+* Scrapping text files (PDF & Text) to get text content.
+* Summarizing the text contents using smart chatbot with message history based on LLM model (Google Gemini) using Langchain, focus on the important notes, and adding Q/A.
+* Chatbot can talking to the users, summarizing text messages, answering questions on the summarized contents, and can help users to use the web page explaining step by step.
+* Designed a user friendly graphical interface using Streamlit.""")
 st.columns([1,1,1])[1].image("images/Chat bot-pana.png")
-st.link_button("GitHub Repository To See Implementation Notebooks and Deployment Codes", "https://github.com/BeboFekry/ChatHub", use_container_width=1)
-st.link_button("Try Run The Project", "https://chatclub.streamlit.app/", use_container_width=1)
+st.link_button("GitHub Repository To See Implementation Notebooks and Deployment Codes", "https://github.com/BeboFekry/Octobot-Smart-Summarizer", use_container_width=1)
+st.link_button("Try Run The Project", "https://octobot.streamlit.app/", use_container_width=1)
 st.divider()
 
 st.info("4. ChatHub - Easy Auto Building Chatbots and Connect them with Social Media Accounts (Streamlit Project)")

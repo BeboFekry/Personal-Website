@@ -72,7 +72,7 @@ st.write("""* Collected data from several resources as resume pdf documents usin
 * Designed a user friendly graphical interface using Streamlit with a integrated job description samples to try and testing the app.""")
 
 skills = ""
-def add_skill(skill, color = "green"):
+def add_skill(skill, color = "blue"):
     global skills
     skills = skills + f""":{color}-badge[:material/check: "{skill}"] """
 add_skill('Python')

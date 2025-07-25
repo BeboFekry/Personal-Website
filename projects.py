@@ -39,18 +39,22 @@ applying anatomical recognition, disease evaluation, disease diagnosis, and also
 """)
 # * 🏆 Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024** by Ready Tensor
 st.warning("* 🏆 Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024** by Ready Tensor")
-st.write("**Key SKills:**")
+
 skills = ""
 def add_skill(skill, color = "green"):
     global skills
     skills = skills + f""":{color}-badge[:material/check: "{skill}"] """
-
+add_skill('Python')
 add_skill('Machine Learning')
 add_skill('Deep Learning')
 add_skill('Computer Vision')
 add_skill('Natural Language Processing NLP')
 add_skill('Pattern Recognition')
+add_skill('Restful API')
+add_skill('Langchain')
+add_skill('Optical Character Recognition OCR')
 
+st.write("**Key SKills:**")
 st.markdown(skills)
 # st.badge("Machine Learning", icon=":material/check:", color="green")
 
@@ -65,8 +69,24 @@ st.info("2. Smart ATS using Langchain and RAG")
 st.write("""* Collected data from several resources as resume pdf documents using pdf plumber file scrappers, resume images using OCR model, text from CSV files using Pandas, then store all data into a Vector Database using Chroma DB.
 * Built a retrieval system that retrieved most similar documents to the job description.
 * Embedded an LLM model to collect and reformat the retrieved documents and the job description to recommend the best candidate fit the job.
-* Designed a user friendly graphical interface using Streamlit with a integrated job description samples to try and testing the app.
-Key Skills: LangChain · Retrieval-Augmented Generation (RAG) · Pandas (Software) · Python (Programming Language) · Optical Character Recognition (OCR) · ChromaDB · Streamlit""")
+* Designed a user friendly graphical interface using Streamlit with a integrated job description samples to try and testing the app.""")
+
+skills = ""
+def add_skill(skill, color = "green"):
+    global skills
+    skills = skills + f""":{color}-badge[:material/check: "{skill}"] """
+add_skill('Python')
+add_skill('Langchain')
+add_skill('Retrieval-Augmented Generation (RAG)')
+add_skill('Pandas')
+add_skill('Computer Vision')
+add_skill('Restful API')
+add_skill('Optical Character Recognition OCR')
+add_skill('ChromaDB')
+add_skill('Streamlit')
+st.write("**Key SKills:**")
+st.markdown(skills)
+
 st.columns([1,1,1])[1].image("images/Chat bot-pana.png")
 st.link_button("GitHub Repository To See Implementation Notebooks and Deployment Codes", "https://github.com/BeboFekry/Smart-ATS-System-using-RAG", use_container_width=1)
 # st.link_button("Try Run The Project", "https://chatclub.streamlit.app/", use_container_width=1)

@@ -37,7 +37,7 @@ applying anatomical recognition, disease evaluation, disease diagnosis, and also
 
 * In addition of making algorithm for MBTI personality analysis test.
 
-* 🏆 Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024* by Ready Tensor
+* 🏆 Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024** by Ready Tensor
 """)
 st.columns([1,8,1])[1].image("images/Logo.png")
 st.link_button("GitHub Repository", "https://github.com/BeboFekry/I-Care-Smart-Doctor", use_container_width=1)

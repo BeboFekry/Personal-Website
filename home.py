@@ -270,7 +270,7 @@ st.write("""**Mathematics:**  Probability, Statistics, Linear Algebra, Calculus,
 **ML/DL:** Scikit-learn, TensorFlow, Keras  
 **NLP:** LangChain, LSTM, RAG  
 **Dev Tools:** Git, REST APIs by Flask, MS Power BI, Streamlit  
-Methodologies: Agile, Waterfall  
+**Methodologies:** Agile, Waterfall  
 """)
 st.write("---")
 

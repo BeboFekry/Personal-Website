@@ -332,7 +332,7 @@ st.write("English (very good)")
 st.write("---")
 
 st.info("Publications")
-st.warning("🏅 Winner of "Best Distinguished Applied Solution Showcase" in "Computer Vision Projects Expo 2024 Competition" by Ready Tensor publication website")
+st.warning("🏆 Winner of "Best Distinguished Applied Solution Showcase" in "Computer Vision Projects Expo 2024 Competition" by Ready Tensor publication website")
 st.write("""#### I Care - Smart Doctor
 **The project consists of three main modules:**
 

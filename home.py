@@ -332,7 +332,7 @@ st.write("English (very good)")
 st.write("---")
 
 st.info("Publications")
-st.warning("🏆 Winner of "Best Distinguished Applied Solution Showcase" in "Computer Vision Projects Expo 2024 Competition" by Ready Tensor publication website")
+st.warning("🏆 Achieved Winner of **Best Distinguished Applied Solution Showcase** in **Computer Vision Projects Expo 2024** Competition by Ready Tensor")
 st.write("""#### I Care - Smart Doctor
 **The project consists of three main modules:**
 
@@ -351,7 +351,11 @@ It also can recognize 101 food types from images and shows the approximate numbe
 **Module 3:** An ensemble Machine Learning (Random Forest) Model for scan Electrocardiography ECG and diagnosis the heart diseases. 
 
 The AI module is designed in different parts. There are a Natural Language Processing NLP, Deep Learning Computer Vision Classification, Image Segmentation, Optical Character Recognition OCR, Large Language Model LLM, Speech Recognition, and Machine Learning Models all are combined together to mimic a doctor for all specialties.""")
-st.write("---")
+st.link_button("GitHub Repository", "https://github.com/BeboFekry/I-Care-Smart-Doctor", use_container_width=1)
+st.link_button("Publication Link", "https://app.readytensor.ai/publications/i_care_-_smart_doctor_-_comprehensive_medical_system_sZgWGLbCUMiS", use_container_width=1)
+st.link_button("YouTube Demo Video", "https://youtu.be/_nqm8FuEdLA?si=c2eDVRqfAqKxlD__", use_container_width=1)
+st.link_button("LinkedIn Demo Video", "https://www.linkedin.com/posts/abdallah-fekry_artificialintelliegence-ai-machinelearning-activity-7197120996053520384-NVmH?utm_source=share&utm_medium=member_desktop", use_container_width=1)
+st.divider()
 
 st.info("Projects")
 projects = st.Page("projects.py")

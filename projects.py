@@ -37,7 +37,7 @@ applying anatomical recognition, disease evaluation, disease diagnosis, and also
 
 * In addition of making algorithm for MBTI personality analysis test.
 
-* Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024* by Ready Tensor
+* 🏆 Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024* by Ready Tensor
 """)
 st.columns([1,8,1])[1].image("images/Logo.png")
 st.link_button("GitHub Repository", "https://github.com/BeboFekry/I-Care-Smart-Doctor", use_container_width=1)
@@ -214,7 +214,7 @@ st.link_button("GitHub Repository To See Implementation Notebooks", "https://git
 st.link_button("Kaggle Notebook Link", "https://www.kaggle.com/code/bebofekry/gender-classification", use_container_width=1)
 st.divider()
 
-st.info("22. Nasa Hazardous Objects Detection ")
+st.info("23. Nasa Hazardous Objects Detection ")
 # st.write("""explain""")
 st.columns([1,5,1])[1].image("images/Nasa-Hazardous-Objects-Detection.jpeg")
 st.link_button("GitHub Repository To See Implementation Notebooks", "https://github.com/BeboFekry/Nasa-Hazardous-Objects-Detection/tree/main", use_container_width=1)

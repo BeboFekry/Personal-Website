@@ -266,12 +266,12 @@ st.write("---")
 st.info("Skills")
 st.write("""**Mathematics:**  Probability, Statistics, Linear Algebra, Calculus, Optimization  
 **Data Analysis & Visualization:** Numpy, Pandas, Matplotlib, Seaborn, MS Power BI  
-**Programming:** Python, Java, OOP, SQL, Data Structures & Algorithms
-**ML/DL:** Scikit-learn, TensorFlow, Keras
-**NLP:** LangChain, LSTM, RAG
-**Dev Tools:** Git, REST APIs by Flask, MS Power BI, Streamlit
-Methodologies: Agile, Waterfall
-\n""")
+**Programming:** Python, Java, OOP, SQL, Data Structures & Algorithms  
+**ML/DL:** Scikit-learn, TensorFlow, Keras  
+**NLP:** LangChain, LSTM, RAG  
+**Dev Tools:** Git, REST APIs by Flask, MS Power BI, Streamlit  
+Methodologies: Agile, Waterfall  
+""")
 st.write("---")
 
 st.info("Certificates")

@@ -41,24 +41,18 @@ applying anatomical recognition, disease evaluation, disease diagnosis, and also
 """)
 st.write("**Key SKills:**")
 skills = ""
-def add_skill(skill):
+def add_skill(skill, color = "green"):
     global skills
-    skills = skills + f""":green-badge[:material/check: "{skill}"] """
+    skills = skills + f""":{color}-badge[:material/check: "{skill}"] """
 
 add_skill('Machine Learning')
 add_skill('Deep Learning')
 add_skill('Computer Vision')
 add_skill('Natural Language Processing NLP')
 add_skill('Pattern Recognition')
-
 st.markdown(skills)
-
-st.markdown(
-    ":green-badge[:material/check: Machine Learning] :green-badge[:material/check: Deep Learning] :green-badge[:material/check: Computer Vision]"
-)
-st.badge("Natural Language Processing NLP", icon=":material/check:", color="green")
-st.badge("Pattern Recognition", icon=":material/check:", color="green")
 # st.badge("Machine Learning", icon=":material/check:", color="green")
+
 st.columns([1,8,1])[1].image("images/Logo.png")
 st.link_button("GitHub Repository", "https://github.com/BeboFekry/I-Care-Smart-Doctor", use_container_width=1)
 st.link_button("Publication Link", "https://app.readytensor.ai/publications/i_care_-_smart_doctor_-_comprehensive_medical_system_sZgWGLbCUMiS", use_container_width=1)

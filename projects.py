@@ -42,15 +42,17 @@ applying anatomical recognition, disease evaluation, disease diagnosis, and also
 st.write("**Key SKills:**")
 skills = ""
 def add_skill(skill):
-    skills = skills + f":green-badge[:material/check: \"{skill}\"] "
+    global skills
+    skills = skills + f""":green-badge[:material/check: "{skill}"] """
+
 add_skill('Machine Learning')
 add_skill('Deep Learning')
 add_skill('Computer Vision')
 add_skill('Natural Language Processing NLP')
 add_skill('Pattern Recognition')
-st.markdown(
-    skills
-)
+
+st.markdown(skills)
+
 st.markdown(
     ":green-badge[:material/check: Machine Learning] :green-badge[:material/check: Deep Learning] :green-badge[:material/check: Computer Vision]"
 )

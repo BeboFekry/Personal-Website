@@ -60,7 +60,7 @@ st.divider()
 st.info("3. Smart Summarizer using Langchain and Web Scrapping")
 st.write("""* Using LLM for Summarize text documents to focus only on the important topics and answer the questions about it. 
 Scrapping and summaryzing text, pdf and text document files, web contents, LinkedIn posts, pdf, and YouTube videos content.
-## Key Points
+#### Key Points
 * Scrapping web pages to get web content.
 * Scrapping YouTube videos links to get text subtitles in Arabic or English languages.
 * Scrapping text files (PDF & Text) to get text content.

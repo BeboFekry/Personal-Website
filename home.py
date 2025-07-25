@@ -350,7 +350,8 @@ It also can recognize 101 food types from images and shows the approximate numbe
 
 **Module 3:** An ensemble Machine Learning (Random Forest) Model for scan Electrocardiography ECG and diagnosis the heart diseases. 
 
-The AI module is designed in different parts. There are a Natural Language Processing NLP, Deep Learning Computer Vision Classification, Image Segmentation, Optical Character Recognition OCR, Large Language Model LLM, Speech Recognition, and Machine Learning Models all are combined together to mimic a doctor for all specialties.""")
+**Conclusion:** 
+The AI module is designed in different parts. There are a Natural Language Processing NLP, Deep Learning Computer Vision Classification Models, Image Segmentation, Optical Character Recognition OCR, Large Language Model LLM, Speech Recognition, and Machine Learning Models all are combined together to mimic a doctor for all specialties.""")
 st.link_button("GitHub Repository", "https://github.com/BeboFekry/I-Care-Smart-Doctor", use_container_width=1)
 st.link_button("Publication Link", "https://app.readytensor.ai/publications/i_care_-_smart_doctor_-_comprehensive_medical_system_sZgWGLbCUMiS", use_container_width=1)
 st.link_button("YouTube Demo Video", "https://youtu.be/_nqm8FuEdLA?si=c2eDVRqfAqKxlD__", use_container_width=1)

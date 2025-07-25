@@ -40,6 +40,9 @@ applying anatomical recognition, disease evaluation, disease diagnosis, and also
 * 🏆 Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024** by Ready Tensor
 """)
 st.write("**Key SKills:**")
+st.markdown(
+    ":green-badge[:material/check: Machine Learning] :orange-badge[⚠️ Needs review] :gray-badge[Deprecated]"
+)
 st.badge("Machine Learning", icon=":material/check:", color="green")
 st.badge("Deep Learning", icon=":material/check:", color="green")
 st.badge("Computer Vision", icon=":material/check:", color="green")

@@ -22,6 +22,9 @@ with col2:
     st.write("  \n")
     st.write("  \n")
     st.subheader("Abdallah Fekry")
+    st.markdown(
+        ":blue-badge[:material/check: ML Engineer] :blue-badge[:material/check: AI Engineer] :blue-badge[:material/check: Data Scientist]"
+    )
     st.write("**AI Engineer**")
 st.write("---")
 

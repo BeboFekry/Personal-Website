@@ -36,9 +36,9 @@ applying anatomical recognition, disease evaluation, disease diagnosis, and also
 * **Module 3:** An ensemble Machine Learning (Random Forest) Model for scan Electrocardiography ECG and diagnosis the heart diseases.
 
 * In addition of making algorithm for MBTI personality analysis test.
-
-* 🏆 Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024** by Ready Tensor
 """)
+# * 🏆 Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024** by Ready Tensor
+st.warning("* 🏆 Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024** by Ready Tensor")
 st.write("**Key SKills:**")
 skills = ""
 def add_skill(skill, color = "green"):
@@ -50,6 +50,7 @@ add_skill('Deep Learning')
 add_skill('Computer Vision')
 add_skill('Natural Language Processing NLP')
 add_skill('Pattern Recognition')
+
 st.markdown(skills)
 # st.badge("Machine Learning", icon=":material/check:", color="green")
 

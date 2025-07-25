@@ -268,7 +268,7 @@ st.write("""**Mathematics:**  Probability, Statistics, Linear Algebra, Calculus,
 **Data Analysis & Visualization:** Numpy, Pandas, Matplotlib, Seaborn, MS Power BI  
 **Programming:** Python, Java, OOP, SQL, Data Structures & Algorithms  
 **ML/DL:** Scikit-learn, TensorFlow, Keras  
-**NLP:** LangChain, LSTM, RAG  
+**NLP:** LSTM, LangChain, RAG, Chroma DB  
 **Dev Tools:** Git, REST APIs by Flask, MS Power BI, Streamlit  
 **Methodologies:** Agile, Waterfall  
 """)

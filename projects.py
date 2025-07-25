@@ -39,6 +39,13 @@ applying anatomical recognition, disease evaluation, disease diagnosis, and also
 
 * 🏆 Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024** by Ready Tensor
 """)
+st.write("**Key SKills:**")
+st.badge("Machine Learning", icon=":material/check:", color="green")
+st.badge("Deep Learning", icon=":material/check:", color="green")
+st.badge("Computer Vision", icon=":material/check:", color="green")
+st.badge("Natural Language Processing NLP", icon=":material/check:", color="green")
+st.badge("Pattern Recognition", icon=":material/check:", color="green")
+# st.badge("Machine Learning", icon=":material/check:", color="green")
 st.columns([1,8,1])[1].image("images/Logo.png")
 st.link_button("GitHub Repository", "https://github.com/BeboFekry/I-Care-Smart-Doctor", use_container_width=1)
 st.link_button("Publication Link", "https://app.readytensor.ai/publications/i_care_-_smart_doctor_-_comprehensive_medical_system_sZgWGLbCUMiS", use_container_width=1)

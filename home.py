@@ -179,29 +179,6 @@ if st.session_state.g:
     st.columns([1,1,1])[1].image("images\Abdallah Fekry Graduation Certificate.jpg")
 if st.session_state.c:
     st.columns([1,2,1])[1].image("images\Distinguished Applied Solution Showcase in CV Projects Expo 2024 Competition (Ready Tensor).jpg")
-
-st.columns([1,2])[0].divider()
-
-col1, col2 = st.columns([3,1])
-with col1:
-    # st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
-    #     Artificial Intelligence AI & Internet of Things IoT Trainee | National Telecommunication Institute NTI
-    #     </div>""",unsafe_allow_html=True)
-    st.write("**Master's degree MSc in Computer Science - Faculty of Computers and Artificial Intelligence - Cairo University**  \n**Department:** Computer Science CS")
-with col2:
-    st.markdown(f"""<div style='text-align: justify;font-size: 16px;line-height: 1.6;color: #333;direction: rtl;'>
-        (January 2026 - Present)</div>""",unsafe_allow_html=True)
-st.write("**Course Work:**")
-
-st.markdown(
-    ":grey-badge[:material/developer_mode_tv: Formal Methods and Theory of Computetion]" \
-    ":grey-badge[:material/functions: Advanced Mathematics and Algorithms]" \
-    ":grey-badge[:material/network_intel_node: Advanced Artificial Intelligence AI] " \
-    ":grey-badge[:material/robot_2: Advanced Natural Language Processing NLP] " \
-    ":grey-badge[:material/search: Information Retrieval] " \
-    ":grey-badge[:material/database: Advanced Topics in Computer Science] " \
-    )
-st.divider()
 # ______________________________________________________________________________
 
 # Skills

@@ -18,20 +18,6 @@ if st.session_state.first_time:
     st.toast("Rotate your mobile screen", icon=":material/sync:")
     st.session_state.first_time = False
 
-# col1, col2, col3, col4 = st.columns([1,2,3,1])
-# with col2:
-#     #st.image(r"images/Picsart_24-07-16_16-37-19-394.png")
-#     st.image(r"images/20241231_053847.png")
-# with col3:
-#     st.write("  \n")
-#     st.write("  \n")
-#     st.write("  \n")
-#     st.write("  \n")
-#     st.write("  \n")
-#     st.subheader("Eng. Abdallah Fekry")
-#     st.write("**AI Engineer**")
-# st.write("---")
-
 # Header
 # with st.container(border=True):
 c1, c2 = st.columns([1,2.5])
@@ -70,47 +56,46 @@ with c2:
         particles_js = f.read(  )
     components.html(particles_js, height=370, scrolling=False)
 st.divider()
+# ___________________________________________________________________________________________
 
-# st.pdf(r"C:\Users\lenovo\Downloads\AI ML Engineer Abdallah Fekry Resume.pdf")
+# # Personal Chatbot
+# if "messages" not in st.session_state:
+#     st.session_state.messages = []
+# st.subheader(":material/robot_2: Talk with Hamouda")    
+# col1, col2 = st.columns([1.1,5])
+# with col1:
+#     st.markdown("it knows everything about me!")
+#     st.image(r"images/Picsart_26-04-01_17-50-11-247.png")
+# with col2:
+#     with st.container(border=False, height=300):
+#         if st.session_state.messages:
+#             for m in st.session_state.messages:
+#                 if m['sender'] == 'human':
+#                     if m['type']=='text':
+#                         st.chat_message('human').markdown(m['content'])
+#                     elif m['type']=='audio':
+#                         st.chat_message('human').audio(m['content'])
+#                 elif m['sender'] == 'ai':
+#                     if m['type']=='text':
+#                         st.chat_message('assistant').markdown(m['content'])
+#                     elif m['type']=='audio':
+#                         st.chat_message('assistant').audio(m['content'])
 
-# Personal Chatbot
-if "messages" not in st.session_state:
-    st.session_state.messages = []
-st.subheader(":material/robot_2: Talk with Hamouda")    
-col1, col2 = st.columns([1.1,5])
-with col1:
-    st.markdown("it knows everything about me!")
-    st.image(r"D:\STUDY\Projects\AI Product Assistant\media\Picsart_26-04-01_17-50-11-247.png")
-with col2:
-    with st.container(border=False, height=300):
-        if st.session_state.messages:
-            for m in st.session_state.messages:
-                if m['sender'] == 'human':
-                    if m['type']=='text':
-                        st.chat_message('human').markdown(m['content'])
-                    elif m['type']=='audio':
-                        st.chat_message('human').audio(m['content'])
-                elif m['sender'] == 'ai':
-                    if m['type']=='text':
-                        st.chat_message('assistant').markdown(m['content'])
-                    elif m['type']=='audio':
-                        st.chat_message('assistant').audio(m['content'])
-
-        message = st.chat_input("Say something...", accept_audio=True, accept_file=True, file_type=['csv','jpg','jpeg','png'])
-        if message:
-            if message.text:
-                st.session_state.messages.append({'sender':'human','content':message.text, "type":'text'})
-                response = "Welcome back sir all systems is ready to pair"
-                st.session_state.messages.append({'sender':'ai','content':response, "type":'text'})
-                # st.rerun()
-            if message.audio:
-                st.session_state.messages.append({'sender':'human','content':message.audio, "type":'audio'})
-                response = "Welcome back sir all systems is ready to pair"
-                st.session_state.messages.append({'sender':'ai','content':response, "type":'text'})
-            if message.files:
-                pass
-            st.rerun()
-st.divider()
+#         message = st.chat_input("Say something...", accept_audio=True, accept_file=True, file_type=['csv','jpg','jpeg','png'])
+#         if message:
+#             if message.text:
+#                 st.session_state.messages.append({'sender':'human','content':message.text, "type":'text'})
+#                 response = "Welcome back sir all systems is ready to pair"
+#                 st.session_state.messages.append({'sender':'ai','content':response, "type":'text'})
+#                 # st.rerun()
+#             if message.audio:
+#                 st.session_state.messages.append({'sender':'human','content':message.audio, "type":'audio'})
+#                 response = "Welcome back sir all systems is ready to pair"
+#                 st.session_state.messages.append({'sender':'ai','content':response, "type":'text'})
+#             if message.files:
+#                 pass
+#             st.rerun()
+# st.divider()
 
 
 # ________________________________________________________________________________________________

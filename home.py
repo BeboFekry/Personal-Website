@@ -1,25 +1,11 @@
 import streamlit as st
 import streamlit.components.v1 as components
-# import streamlit.components.v1 
-
-background_image = """
-<style>
-    [data-testid="stAppViewContainer"] > .main {
-        background-image: url("https://raw.githubusercontent.com/BeboFekry/ChatHub/main/images/background.jpg");
-        background-size: 100vw 100vh;
-        background-position: center;  
-        background-repeat: no-repeat;
-    }
-</style>
-"""
-st.markdown(background_image, unsafe_allow_html=True)
 
 if st.session_state.first_time:
     st.toast("Rotate your mobile screen", icon=":material/sync:")
     st.session_state.first_time = False
 
 # Header
-# with st.container(border=True):
 c1, c2 = st.columns([1,2.5])
 with c1:
     st.write("")
@@ -33,13 +19,12 @@ with c1:
     ":blue-badge[:material/bar_chart_4_bars: Data Analytics] " \
     )
     st.write("##### AI/ML Engineer - Data Scientist")
-    # st.write("##### Data Scientist")
     st.write(":material/distance: Cairo, Egypt")
     st.write(":material/email: abdallahfekry95@gmail.com")
     st.write(":material/phone: +20 111 94 99 384")
     # Social
     col11, col22, col33, col44, col55, space = st.columns([1,1,1,1,1.15,5], vertical_alignment='bottom')
-    with col11: #https://github.com/BeboFekry/Personal-Website/blob/main/images/gmail.png
+    with col11:
         st.markdown("[![G](https://raw.githubusercontent.com/BeboFekry/Personal-Website/main/images/gmail.png)](mailto:abdallahfekry95@gmail.com)")
     with col22:
         st.markdown("[![LI](https://raw.githubusercontent.com/BeboFekry/Personal-Website/main/images/702300.png)](http://www.linkedin.com/in/abdallah-fekry)")
@@ -56,49 +41,8 @@ with c2:
         particles_js = f.read(  )
     components.html(particles_js, height=370, scrolling=False)
 st.divider()
-# ___________________________________________________________________________________________
-
-# # Personal Chatbot
-# if "messages" not in st.session_state:
-#     st.session_state.messages = []
-# st.subheader(":material/robot_2: Talk with Hamouda")    
-# col1, col2 = st.columns([1.1,5])
-# with col1:
-#     st.markdown("it knows everything about me!")
-#     st.image(r"images/Picsart_26-04-01_17-50-11-247.png")
-# with col2:
-#     with st.container(border=False, height=300):
-#         if st.session_state.messages:
-#             for m in st.session_state.messages:
-#                 if m['sender'] == 'human':
-#                     if m['type']=='text':
-#                         st.chat_message('human').markdown(m['content'])
-#                     elif m['type']=='audio':
-#                         st.chat_message('human').audio(m['content'])
-#                 elif m['sender'] == 'ai':
-#                     if m['type']=='text':
-#                         st.chat_message('assistant').markdown(m['content'])
-#                     elif m['type']=='audio':
-#                         st.chat_message('assistant').audio(m['content'])
-
-#         message = st.chat_input("Say something...", accept_audio=True, accept_file=True, file_type=['csv','jpg','jpeg','png'])
-#         if message:
-#             if message.text:
-#                 st.session_state.messages.append({'sender':'human','content':message.text, "type":'text'})
-#                 response = "Welcome back sir all systems is ready to pair"
-#                 st.session_state.messages.append({'sender':'ai','content':response, "type":'text'})
-#                 # st.rerun()
-#             if message.audio:
-#                 st.session_state.messages.append({'sender':'human','content':message.audio, "type":'audio'})
-#                 response = "Welcome back sir all systems is ready to pair"
-#                 st.session_state.messages.append({'sender':'ai','content':response, "type":'text'})
-#             if message.files:
-#                 pass
-#             st.rerun()
-# st.divider()
-
-
 # ________________________________________________________________________________________________
+
 # Overview
 st.header(":material/overview: Overview", divider='blue')
 text_to_justify = """As a computer science enthusiast with a great academic background with grade very good with honors, 
@@ -124,16 +68,12 @@ unsafe_allow_html=True
 st.divider()
 
 profile = st.Page("profile.py", title="Profile", icon=":material/person:")
-# projects = st.Page("projects2.py", title="Projects", icon=":material/work:")
 # ________________________________________________________________________________________________
 
 # Education
 st.header(":material/school: Education", divider='blue')
 col1, col2 = st.columns([3,1])
 with col1:
-    # st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
-    #     Artificial Intelligence AI & Internet of Things IoT Trainee | National Telecommunication Institute NTI
-    #     </div>""",unsafe_allow_html=True)
     st.write("**Bachelor's degree BSc in Computer Science - Culture and Science City C.S.C**  \n**Department:** Computer Science CS  \n**Cumulative Grade:** Very Good with Honors  \n**Graduation Project Grade:** Excellent")
 with col2:
     st.markdown(f"""<div style='text-align: justify;font-size: 16px;line-height: 1.6;color: #333;direction: rtl;'>
@@ -162,11 +102,7 @@ if 'g' not in st.session_state:
     st.session_state.g = False
 if 'c' not in st.session_state:
     st.session_state.c = False
-# g = False
-# c = False
 col1, col2, col3, col4 = st.columns([1,1,1,3])
-# with st.expander(":material/license: Graduation Certificate"):
-#     st.columns([1,1,1])[1].image("images\Abdallah Fekry Graduation Certificate.jpg")
 with col1:
     if st.button(":material/license: Graduation Certificate", type='tertiary'):
         st.session_state.g = not st.session_state.g
@@ -184,10 +120,6 @@ st.divider()
 
 # Skills
 st.header(":material/person_celebrate: Skills", divider='blue')
-# c1, c2 = st.columns([1,10])
-# with c1:
-# st.write(":material/calculate: **Mathematics:**")
-# with c2:
 st.markdown(
     ":material/calculate: **Mathematics:** " \
     ":blue-badge[:material/percent: Probability] " \
@@ -196,8 +128,6 @@ st.markdown(
     ":blue-badge[:material/square_foot: Linear Algebra] " \
     ":blue-badge[:material/functions: Optimization] " \
 )
-# st.columns([1,3])[0].divider()
-# st.write(":material/bar_chart_4_bars: **Data Analysis & Visualization:**")
 st.markdown(
     ":material/bar_chart_4_bars: **Data Analysis & Visualization:** " \
     ":blue-badge[:material/deployed_code: Numpy] " \
@@ -206,8 +136,6 @@ st.markdown(
     ":blue-badge[:material/bar_chart: Seaborn] " \
     ":blue-badge[:material/table_chart_view: MS Power BI] " \
 )
-# st.columns([1,3])[0].divider()
-# st.write(":material/code: **Programming:**")
 st.markdown(
     ":material/code: **Programming:** " \
     ":blue-badge[:material/code: Python] " \
@@ -216,16 +144,12 @@ st.markdown(
     ":blue-badge[:material/database: SQL] " \
     ":blue-badge[:material/share: Data Structures & Algorithms] " \
 )
-# st.columns([1,3])[0].divider()
-# st.write(":material/network_intel_node: **Machine Learning ML/Deep Learning DL:**")
 st.markdown(
     ":material/network_intel_node: **Machine Learning ML/Deep Learning DL:** " \
     ":blue-badge[:material/network_intel_node: Scikit-learn] " \
     ":blue-badge[:material/share: TensorFlow]" \
     ":blue-badge[:material/share: Keras]" \
 )
-# st.columns([1,3])[0].divider()
-# st.write(":material/robot_2: **Natural Language processing NLP:**")
 st.markdown(
     ":material/robot_2: **Natural Language processing NLP:** " \
     ":blue-badge[:material/text_compare: LSTM] " \
@@ -233,8 +157,6 @@ st.markdown(
     ":blue-badge[:material/search: RAG]" \
     ":blue-badge[:material/database: Chroma DB]" \
 )
-# st.columns([1,3])[0].divider()
-# st.write(":material/code: **Dev Tools:**")
 st.markdown(
     ":material/code: **Dev Tools:** " \
     ":blue-badge[:material/code: Git] " \
@@ -242,21 +164,11 @@ st.markdown(
     ":blue-badge[:material/bar_chart: MS Power BI]" \
     ":blue-badge[:material/developer_mode_tv: Streamlit]" \
 )
-# st.columns([1,3])[0].divider()
-# st.write(":material/list: **Methodologies:**")
 st.markdown(
     ":material/list: **Methodologies:** " \
     ":blue-badge[:material/format_line_spacing: Agile] " \
     ":blue-badge[:material/water: Waterfall]" \
 )
-# st.write("""**Mathematics:**  Probability, Statistics, Linear Algebra, Calculus, Optimization  
-# **Data Analysis & Visualization:** Numpy, Pandas, Matplotlib, Seaborn, MS Power BI  
-# **Programming:** Python, Java, OOP, SQL, Data Structures & Algorithms  
-# **ML/DL:** Scikit-learn, TensorFlow, Keras  
-# **NLP:** LSTM, LangChain, RAG, Chroma DB  
-# **Dev Tools:** Git, REST APIs by Flask, MS Power BI, Streamlit  
-# **Methodologies:** Agile, Waterfall  
-# """)
 st.divider()
 # _________________________________________________________________________________________
 
@@ -279,10 +191,6 @@ st.write("""  \n• Developed more than 8 AI projects in NLP, LLM, Computer Visi
       \n• Working individually and as a part of a team using Agile methodology.""")
 st.divider()
 
-# st.write("****")
-# st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
-#         Data Science & Machine Learning | Microsoft Student Clubs by EELU | March 2024 – Present
-#         </div>""",unsafe_allow_html=True)
 col1, col2 = st.columns([3,1])
 with col1:
     st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
@@ -294,16 +202,7 @@ st.write("")
 st.write("")
 st.divider()
 
-# st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
-#         Data Science Intern | Code Alpha | May 2024 - Present
-#         </div>""",unsafe_allow_html=True)
-# st.write("")
-# st.write()
-# st.divider()
 
-# st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
-#         Big Data Trainee | National Telecommunication Institute NTI | March 2024 – May 2024
-#         </div>""",unsafe_allow_html=True)
 col1, col2 = st.columns([3,1])
 with col1:
     st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
@@ -911,321 +810,10 @@ st.divider()
 # ______________________________________________________________________________________________
 
 
-
-# st.subheader(":material/lightbulb: Projects", divider='blue')
-# st.write("")
-# projects = []
-# projects.append({
-# "title":"I Care - Smart Doctor and Comprehensive Medical System (Graduation Project)",
-# "info":"""As a team leader i have distributed the tasks on the team members, i have decided to work with Agile methodology so i was making a meeting each one or two weeks with the team members to presenting the work done
-# i was responsible for the AI modules which are:
-
-# ### My part in the project consists of three main modules:
-
-# * **Module 1:** An AI based smart chatbot called "Caroline" talking to the patient 
-# and taking its disease symptoms by text or voice messages, then diagnosing the disease and 
-# recommend making some tests or medical imaging scans to do as x-ray, MRI, Complete Blood Count CBC, ... in addition, given 
-# information about the predicted disease as an overview, symptoms, and 
-# treatments. It can predict 30 diseases such as (Breast Cancer, Influenza, Covid 19, Stroke, ...) 
-
-# * **Module 2:** A sequence of AI Computer Vision models for scanning medical 
-# imaging scans and medical tests it can scan (X-ray, MRI, CT, OCT, CBC, or Food images), 
-# detect the image type (Image Recognition), if it is medical imaging image, 
-# applying anatomical recognition, disease evaluation, disease diagnosis, and also in tumor or bone fraction cases. It can locate the tumor or the fraction using image segmentation. It can predict 25 disease types such as (Bone Fracture, Brain Tumor, Covid 19, Breast Cancer, ...). It can read the Complete Blood Count (CBC) test images and evaluate overall health and diagnose conditions like anemia, infections, clotting disorders, and blood cancers by analyzing red and white blood cells, hemoglobin, hematocrit, and platelets. It also can recognize 101 food types from images and shows the approximate number of calories per gram.
-
-# * **Module 3:** An ensemble Machine Learning (Random Forest) Model for scan Electrocardiography ECG and diagnosis the heart diseases.
-
-# * In addition of making algorithm for MBTI personality analysis test.""",
-#     "skills":['Python','Machine Learning','Deep Learning','Computer Vision','Natural Language Processing NLP','Pattern Recognition','Restful API','Optical Character Recognition OCR','Streamlit','Speech Recognition','Langchain','Retrieval-Augmented Generation (RAG)'],
-#     "links":[{'title':"GitHub Repository",'link':"https://github.com/BeboFekry/I-Care-Smart-Doctor"},
-#              {'title':"Publication Link",'link':"https://app.readytensor.ai/publications/i_care_-_smart_doctor_-_comprehensive_medical_system_sZgWGLbCUMiS"},
-#              {'title':"YouTube Demo Video",'link':"https://youtu.be/_nqm8FuEdLA?si=c2eDVRqfAqKxlD__"},
-#              {'title':"LinkedIn Demo Video",'link':"https://www.linkedin.com/posts/abdallah-fekry_artificialintelliegence-ai-machinelearning-activity-7197120996053520384-NVmH?utm_source=share&utm_medium=member_desktop"}],
-#     "img":'images/Logo.png',
-#     "achievement":'* 🏆 Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024** by Ready Tensor',
-# }
-# )
-# #    "links":[{'title':"GitHub Repo",'link':"https://github.com/BeboFekry/I-Care-Smart-Doctor"},
-# #              {'title':"Publication",'link':"https://app.readytensor.ai/publications/i_care_-_smart_doctor_-_comprehensive_medical_system_sZgWGLbCUMiS"},
-# #              {'title':"YouTube",'link':"https://youtu.be/_nqm8FuEdLA?si=c2eDVRqfAqKxlD__"},
-# #              {'title':"LinkedIn",'link':"https://www.linkedin.com/posts/abdallah-fekry_artificialintelliegence-ai-machinelearning-activity-7197120996053520384-NVmH?utm_source=share&utm_medium=member_desktop"}],
- 
-# projects.append({
-# "title":"Smart ATS using Langchain and RAG",
-# "info":"""* Collected data from several resources as resume pdf documents using pdf plumber file scrappers, resume images using OCR model, text from CSV files using Pandas, then store all data into a Vector Database using Chroma DB.
-# * Built a retrieval system that retrieved most similar documents to the job description.
-# * Embedded an LLM model to collect and reformat the retrieved documents and the job description to recommend the best candidate fit the job.
-# * Designed a user friendly graphical interface using Streamlit with a integrated job description samples to try and testing the app.""",
-#     "skills":['Python','Langchain','Retrieval-Augmented Generation (RAG)','Pandas','Computer Vision','Restful API','Optical Character Recognition OCR','ChromaDB','Streamlit'],
-#     "links":[{'title':"GitHub Repository",'link':"https://github.com/BeboFekry/Smart-ATS-System-using-RAG"}],
-#     "img":'images/Chat bot-pana.png',
-#     "achievement":"",
-# }
-# )
-# projects.append({
-# "title":"Smart Summarizer using Langchain and Web Scrapping",
-# "info":"""
-# * Using LLM for Summarize text documents to focus only on the important topics and answer the questions about it. 
-# Scrapping and summaryzing text, pdf and text document files, web contents, LinkedIn posts, pdf, and YouTube videos content.
-
-# #### Key Points
-
-# * Scrapping web pages to get web content.
-
-# * Scrapping YouTube videos links to get text subtitles in Arabic or English languages.
-
-# * Scrapping text files (PDF & Text) to get text content.
-
-# * Summarizing the text contents using smart chatbot with message history based on LLM model (Google Gemini) using Langchain, focus on the important notes, and adding Q/A.
-
-# * Chatbot can talking to the users, summarizing text messages, answering questions on the summarized contents, and can help users to use the web page explaining step by step.
-
-# * Designed a user friendly graphical interface using Streamlit.""",
-#     "skills":False,
-#     "links":[{'title':"GitHub Repository",'link':"https://github.com/BeboFekry/Octobot-Smart-Summarizer"},
-#              {'title':"Project Link",'link':""}],
-#     "img":'images/Chat bot-pana.png',
-#     "achievement":'',
-# }
-# )
-# # projects.append({
-# # "title":"",
-# # "info":"""""",
-# #     "skills":['Python','Machine Learning','Deep Learning','Computer Vision','Natural Language Processing NLP','Pattern Recognition','Restful API','Langchain','Optical Character Recognition OCR'],
-# #     "links":[{'title':"GitHub Repository",'link':"https://github.com/BeboFekry/I-Care-Smart-Doctor"},
-# #              {'title':"Publication Link",'link':"https://app.readytensor.ai/publications/i_care_-_smart_doctor_-_comprehensive_medical_system_sZgWGLbCUMiS"},
-# #              {'title':"YouTube Demo Video",'link':"https://youtu.be/_nqm8FuEdLA?si=c2eDVRqfAqKxlD__"},
-# #              {'title':"LinkedIn Demo Video",'link':"https://www.linkedin.com/posts/abdallah-fekry_artificialintelliegence-ai-machinelearning-activity-7197120996053520384-NVmH?utm_source=share&utm_medium=member_desktop"}],
-# #     "img":'images/Logo.png',
-# #     "achievement":'* 🏆 Publication Achieved Winner of **Best Distinguished Applied Solution Showcase** at the **Computer Vision Projects Expo 2024** by Ready Tensor',
-# # }
-# # )
-# n = 1
-# for p in projects:
-#     skills = ""
-#     def add_skill(skill, color = "blue"):
-#         global skills
-#         skills = skills + f""":{color}-badge[:material/share: {skill}]"""
-#     with st.expander(f":blue[{str(n)}- {p['title']}]"):
-#         st.subheader(p['title'])
-#         st.columns([1,1,1])[1].image(p['img'])
-#         st.divider()
-#         st.markdown(
-#         f"""
-#         <div style='text-align: justify; 
-#                     font-size: 16px; 
-#                     line-height: 1.6;
-#                     color: #333;'>
-#                 {p['info']}
-#                 </div>
-#         """,
-#         unsafe_allow_html=True
-#         )
-#         if p['achievement']:
-#             st.info(p['achievement'])
-#         if p['skills']:
-#             st.write("**Key Skills:**")
-#             for s in p['skills']:
-#                 add_skill(s)
-#             st.markdown(skills)
-#         # st.write(len(p['links']))
-#         # columns = st.columns(len(p['links']))
-#         # st.write(len(columns))
-#         # c = 0
-#         for l in p['links']:
-#             # with columns[c]:
-#             st.columns([1,1,1])[1].link_button(f":material/link: {l['title']}", l['link'], use_container_width=1, type='tertiary')
-#             # c+=1
-#         st.write("")
-#     n += 1
-
-
 st.subheader(":material/language: Languages", divider='blue')
-# st.info("Languages")
 st.write("**Arabic** (native)")
 st.write("**English** (very good)")
 # ___________________________________________________________________________________
-
-# # st.info("Projects")
-# st.subheader("Projects", divider='blue')
-# projects = st.Page("projects.py")
-# if st.button("View All Projects", use_container_width=1):
-#     st.switch_page(projects)
-# st.subheader("Graduation Project")
-# st.write("As a team leader i have distributed the tasks on the team members, i have decided to work with Agile methodology so i was making a meeting each one or two weeks with the team members to presenting the work done  \n i was responsible for the AI modules which are:")
-# st.write("""**My part in the project consists of three main modules:**
-
-# Module 1: An AI based smart chatbot called "Caroline" talking to the patient 
-# and taking its disease symptoms, then diagnosing the disease and 
-# recommend making some tests as x-ray, MRI ...  \nin addition, given 
-# information about the predicted disease as an overview, symptoms, and 
-# treatments.  \nIt can predict 30 diseases such as (Breast Cancer, Influenza, Covid 19, Stroke, ...) 
-
-# Module 2: A sequence of 14 AI Computer Vision models for scanning medical 
-# imaging and tests it can scan (X-ray, MRI, CT, OCT, ECG, or Food image), 
-# detect the image type (Image Recognition), if it is medical imaging image, 
-# applying anatomical recognition, disease evaluation, disease diagnosis.  \nIt 
-# can predict 25 disease types such as (Bone Fracture, Brain Tumor, Covid 19, 
-# Breast Cancer, ...)  \nIt also can recognize 101 food types from images and shows the approximate number of calories per gram.
-
-# Module 3: An ensemble Machine Learning (Random Forest) Model for scan Electrocardiography ECG and diagnosis the heart diseases.
-
-# In addition i have made some graphic designs as the Logo and the Banner,
-
-# Creating the Software Requirements Specification SRS and the proposal and give them to the other team members to working on them
-
-# Collecting the other' work and combining them, making documentation and the presentation
-
-# Making algorithm for MBTI personality analysis test
-# """)
-# st.divider()
-
-# st.subheader("Logo Design")
-# st.image("images/Logo.png", caption="Logo Design")
-# st.write("---")
-# st.subheader("Poster Design")
-# st.write("  \n")
-# st.image("images/Banner.svg", caption="Banner Design")
-
-# st.write("---")
-# st.write("I was responsible for these features")
-# col1, col2, col3, col4, col5 = st.columns(5)
-# with col1:
-#     st.image(r"images/chatbot.png", caption="Chatbot Diagnosis")
-# with col2:
-#     st.image(r"images/x-ray (4).png", caption="Medical Imaging Scan")
-# with col3:
-#     st.image(r"images/burger.png", caption="Food Calories Scan")
-# with col4:
-#     st.image(r"images/heart-rate (2).png", caption="ECG Scan")
-# with col5:
-#     st.image(r"images/puzzle.png", caption="MBTI Personality Analysis Test")
-# st.write("---")
-
-# # Chatbot feature
-# st.header("Chatbot Diagnosis")
-# col1, col2 = st.columns([1,3])
-# with col1:
-#     st.image(r"images/chatbot.png")
-# with col2:
-#     # st.title("Chatbot Diagnosis")
-#     st.info("An AI based smart chatbot called \"Caroline\" talking to the patient and taking its disease symptoms, then diagnosing the disease and recommend making some tests as x-ray, MRI ... in addition, given information about the predicted disease as an overview, symptoms, and treatments. It can predict 30 diseases such as (Breast Cancer, Influenza, Covid 19, Stroke, ...)")
-# st.write("---")
-
-# # Xrays feature
-# st.header("Medical Imaging Scan")
-# col1, col2 = st.columns([1,3])
-# with col1:
-#     st.image(r"images/x-ray (4).png")
-# with col2:
-#     st.info("A sequence of AI Computer Vision models for scanning medical imaging and tests it can scan (X-ray, MRI, CT, OCT, ECG, or Food image), detect the image type (Image Recognition), if it is medical imaging image, applying anatomical recognition, disease evaluation, disease diagnosis. It can predict 25 disease types such as (Bone Fracture, Brain Tumor, Covid 19, Breast Cancer, ...)")
-# st.write("---")
-
-# # Food scan feature
-# col1, col2 = st.columns([1,3])
-# with col1:
-#     st.image(r"images/burger.png")
-# with col2:
-#     st.header("Food Images Scan")
-#     st.info("It also can recognize 101 food types from images and shows the approximate number of calories per gram.")
-# st.write("---")
-
-# # ECG scan feature
-# col1, col2 = st.columns([1,3])
-# with col1:
-#     st.image(r"images/heart-rate (2).png")
-# with col2:
-#     st.header("ECG Scan")
-#     st.info("An ensemble Machine Learning (Random Forest) Model for scan Electrocardiography ECG and diagnosis the heart diseases.")
-# st.write("---")
-
-# # MBTI personality test feature
-# col1, col2 = st.columns([1,3])
-# with col1:
-#     st.image(r"images/puzzle.png")
-# with col2:
-#     st.header("MBTI Personality Test")
-#     st.info("MBTI personality analysis test that consists of only 20 questions, after answering them you get your personality type and information about it that can help you to take better decision as choosing a school department or career work")
-# st.write("---")
-
-# # Diseases
-# st.title("Diseases Detection")
-# st.info("The AI doctor can detect many diseases")
-# st.image(r"images/fig1-1024x576.png")
-# st.write("---")
-
-# st.subheader("AI Scan Phases")
-# st.image(r"images/AI Mindmap.svg", caption="Scan Models Phases Mindmap")
-# st.write("---")
-
-# st.subheader("Medical Imaging Scan Diseases")
-# st.image(r"images/Diseases Mindmap.jpg", caption="Diseases Mindmap")
-# st.write("---")
-
-# st.subheader("Object Recognition")
-# st.info("Identify the medical imaging scan and food from images")
-# st.image(r"images/7-Best-Image-Recognition-APIs-e1587080882739.jpg", caption="Object Detection")
-# st.write("---")
-
-# st.subheader("Imaging Scan Type Detection")
-# st.info("Identifying the medical imaging scan type of 4 main types which are 'Electromagnetic Variations - Xray', 'Magnetic Resonance Imaging - MRI', 'Computerized Tomography - CT', or 'Optical Coherence Tomography - OCT'")
-# st.image(r"images/158096096_m.jpeg", caption="Medical Imaging Scan Type Detection")
-# st.write("---")
-
-# st.subheader("Anatomical Recognition")
-# st.info("Applying anatomical recognition on all imaging types to identify the body parts")
-# st.image(r"images/various-x-ray-images-of-human-body-parts-vector.jpg", caption="Anatomical Recognition")
-# st.write("---")
-
-# st.subheader("Brain Tumor Detection")
-# st.info("Can to detect brain tumor from MRI and diagnosis their types as 'Glioma_tumor', 'Meningioma_tumor', and 'Pituitary_tumor'")
-# st.image(r"images/brain.jpg", caption="Brain Tumor Detection")
-# st.write("---")
-
-# st.subheader("Bone Fracture Detection")
-# st.info("Can to detect bones fraction from x-rays and diagnosis their 10 types as 'Avulsion fracture', 'Comminuted fracture', 'Compression-Crush fracture', 'Fracture Dislocation', 'Greenstick fracture', 'Hairline Fracture', 'Impacted fracture', 'Intra-articular fracture', 'Longitudinal fracture', 'Oblique fracture', 'Pathological fracture', and 'Spiral Fracture'")
-# st.image(r"images/Fractures.jpeg", caption="Bone Fracture Detection")
-# st.write("---")
-
-# st.subheader("Breast Cancer Detection")
-# st.info("Can detect breast cancer from MRI and diagnosis its types 'Malignant' or 'Benign'")
-# st.image(r"images/3000-2000-2.75196496.jpg", caption="Breast Cancer Detection")
-# st.write("---")
-
-# st.subheader("Chest Diseases Detection")
-# st.info("Can detect chest diseases from x-rays and diagnosis if there is 'Covid 19' or 'Pneumonia'")
-# st.image(r"images/1e04_gefk_220113.jpg", caption="Chest Diseases Detection")
-# st.write("---")
-
-# st.subheader("Body Diseases Detection")
-# st.info("Can detect body diseases from CT scans and diagnosis if there is 'Cyst', 'Stones' or 'Tumors'")
-# st.image(r"images/resize-17111791171404206655GettyImages1185128095600x337.jpg", caption="Body Diseases Detection")
-# st.write("---")
-
-# st.subheader("ECG - Heart Diseases Detection")
-# st.info("Can detect heart diseases from Electrocardiography - ECG and diagnosis if there is 'Normal beat', 'Supraventricular premature beat', 'Premature ventricular contraction', 'Fusion of ventricular and normal beat', or 'Unclassifiable beat'")
-# st.image(r"images/Infinx-Blog-4-Ways-AI-Can-Help-Cardiology-Practices-Adapt-in-2020.jpg", caption="ECG Diseases Detection")
-# st.write("---")
-
-# st.subheader("Eyes Diseases Detection")
-# st.info("Can detect eyes diseases from OCT scans and diagnosis if there is 'CNV - Choroidal Neovascularization', 'DME - Diabetic Macular Edema' or 'Drusen'")
-# st.image(r"images/Screenshot 2024-07-16 154752.png", caption="Eyes Diseases Detection")
-# st.write("---")
-
-# st.subheader("Food Calories Detection")
-# st.info("Can detect food types from images and identify their approximation number of calories per gram. It can detect 101 types of food as 'Frensh fries', 'Pizza', 'Sushi', 'Pancakes', 'Chocolate cake', ...")
-# st.image(r"images/GENERAL GUIDELINES FOR EATING HEALTHY FOOD.png", caption="Food Calories Detection")
-# st.write("---")
-
-# st.subheader("Models Accuracy")
-# st.info("Models accuracy table contains model' input, output, functionality, training and testing accuracy, and recall")
-# st.image("images/Screenshot 2024-07-17 122050.png")
-# st.info("Models' training and testing accuracy graph")
-# st.image("images/output.2png.png")
-# st.write("---")
-
-# st.image("images/background.png", caption="Smart Comprehensive Medical System")
-# st.write("---")
 
 # Footer
 st.write("");st.write("");st.write("")

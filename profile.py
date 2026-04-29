@@ -1,7 +1,5 @@
 import streamlit as st
 
-st.set_page_config(layout='centered')
-
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {

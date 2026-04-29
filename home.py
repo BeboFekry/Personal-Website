@@ -725,7 +725,7 @@ add_project(p)
 p = {
     "title":"Stock Price Prediction - Task 1 in Machine Learning Internship at Code Casa",
     "video":'',
-    "images":["images/698d3b14c355bd5a24407495ab3703c8f0f2392881442ac30547c9d1.jpg"],
+    "images":[r"images/698d3b14c355bd5a24407495ab3703c8f0f2392881442ac30547c9d1.jpg"],
     "description":"""The task is "Stock Price Prediction" i have used Deep Learning LSTM model on Apple stock prices data for the last 6 months from 20/4/2023 to 20/10/2023, and trained the model to take the last 30 days stock prices as input then predict the next price""",
 
     "tools":['Python', 'Deep Learning', 'Transfere Learning', 'LSTM', 'Time Series Data', 'Regression'],

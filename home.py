@@ -8,7 +8,7 @@ if st.session_state.first_time:
 # Header
 c1, c2 = st.columns([1,2.5])
 with c1:
-    st.write("")
+    # st.write("")
     st.header("Abdallah Fekry", divider='blue')
     st.markdown(
     ":blue-badge[:material/robot_2: AI] " \
@@ -34,7 +34,14 @@ with c1:
         st.markdown("[![Kg](https://raw.githubusercontent.com/BeboFekry/Personal-Website/main/images/4844503.png)](https://www.kaggle.com/bebofekry)")
     with col55:
         st.markdown("[![ST](https://raw.githubusercontent.com/BeboFekry/ChatHub/main/images/streamlit-mark-color.png)](https://abdalleh-fekry.streamlit.app/)")
-        
+    with open ("AI ML Engineer Abdallah Fekry Resume.pdf", "rb") as file:
+        btn = st.download_button(
+                label="⬇️ Download Resume",
+                data=file,
+                file_name="Abdallah_Fekry_AI_Resume.pdf",
+                mime="text/pdf",
+                type='tertiary'
+            )
 with c2:
     # Black Shape
     with open("html.txt", 'r') as f:

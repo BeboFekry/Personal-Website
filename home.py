@@ -179,6 +179,7 @@ if st.session_state.g:
     st.columns([1,1,1])[1].image("images\Abdallah Fekry Graduation Certificate.jpg")
 if st.session_state.c:
     st.columns([1,2,1])[1].image("images\Distinguished Applied Solution Showcase in CV Projects Expo 2024 Competition (Ready Tensor).jpg")
+st.divider()
 # ______________________________________________________________________________
 
 # Skills

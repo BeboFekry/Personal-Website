@@ -46,7 +46,7 @@ with c2:
     # Black Shape
     with open("html.txt", 'r') as f:
         particles_js = f.read(  )
-    components.html(particles_js, height=370, scrolling=False)
+    components.html(particles_js, height=400, scrolling=False)
 st.divider()
 # ________________________________________________________________________________________________
 

@@ -45,12 +45,11 @@ st.divider()
 
 # Overview
 st.header(":material/overview: Overview", divider='blue')
-text_to_justify = """As a computer science enthusiast with a great academic background with grade very good with honors, 
-    I am determined to make a significant impact in the tech industry. 
-    I've had the privilege of gaining hands-on experience as an AI Engineer in internship opportunity at Electro Pi working on variety of real-world projects, 
-    Artificial Intelligence (AI) and Internet of Things (IoT) trainee and Big Data treinee at National Telecommunication Institute NTI. 
-    This experience has honed my skills and fueled my passion for innovation. I also have hands-on experience in real-world projects as i was 
-    Data Science and Business Analytics intern at The Sparks Foundation, Machine Learning intern at Code Casa, and finally, Machine Learning intern at Prodigy InfoTech."""
+text_to_justify = """As a graduate in Computer Science by grade Very Good with Honors with a solid foundation in machine learning, NLP, computer vision, and full-cycle AI deployment, I bring not only technical proficiency but also a passion for using AI to solve real-world problems with more than +35 projects portfolio.
+During my academic career, I led a graduation project that integrated NLP and computer vision to develop a smart medical chatbot capable of diagnosing 30 diseases and analyzing medical images using 14 deep learning models with over 95% accuracy. This hands-on experience sharpened my ability to manage AI projects end-to-end from ideation and model development to deployment via Flask APIs and Streamlit.
+In addition, I completed multiple internships in AI and machine learning, where I worked on over 15+ practical projects involving Data Analysis, Visualization, Dashboards, LLM and Smart Agents with LangChain and RAG, OCR-based invoices processing, lip-syncing with Wav2Lip, and advanced computer vision tasks. 
+These experiences taught me to work in Agile teams and individually, communicate effectively, and rapidly prototype solutions that meet real business needs.
+What sets me apart is my ability to bridge the gap between data preprocessing, modeling and deployment, transforming models into production-ready tools. I am also constantly learning, holding several certifications in Python, Problem Solving, SQL, Data Analysis, Machine Learning, Data Science, and AI from respected institutions like Huawei ICT Academy, Microsoft Student Club, and NTI."""
 st.markdown(
 f"""
 <div style='text-align: justify; 

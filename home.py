@@ -53,7 +53,8 @@ This hands-on experience sharpened my ability to manage AI projects end-to-end f
 In addition, I completed multiple internships in AI and machine learning, where I worked on over 15+ practical projects involving Data Analysis, Visualization, Dashboards, LLM and Smart Agents with LangChain and RAG, OCR-based invoices processing, lip-syncing with Wav2Lip, and advanced computer vision tasks. 
 These experiences taught me to work in Agile teams and individually, communicate effectively, and rapidly prototype solutions that meet real business needs.
 
-What sets me apart is my ability to bridge the gap between data preprocessing, modeling and deployment, transforming models into production-ready tools. I am also constantly learning, holding several certifications in Python, Problem Solving, SQL, Data Analysis, Machine Learning, Data Science, and AI from respected institutions like Huawei ICT Academy, Microsoft Student Club, and NTI."""
+What sets me apart is my ability to bridge the gap between data preprocessing, modeling and deployment, transforming models into production-ready tools. 
+I am also constantly learning, holding several certifications in Python, Problem Solving, SQL, Data Analysis, Machine Learning, Data Science, and AI from respected institutions like Huawei ICT Academy, Microsoft Student Club, and NTI."""
 st.markdown(
 f"""
 <div style='text-align: justify; 

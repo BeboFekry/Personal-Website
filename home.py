@@ -38,7 +38,7 @@ with c1:
         btn = st.download_button(
                 label="⬇️ Download Resume",
                 data=file,
-                file_name="Abdallah_Fekry_AI_Resume.pdf",
+                file_name="Abdallah_Fekry_AI_Engineer_Resume.pdf",
                 mime="text/pdf",
                 type='tertiary'
             )

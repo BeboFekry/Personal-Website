@@ -480,7 +480,7 @@ add_project(p)
 p = {
     "title":"I Care - Smart Doctor & Comprehensive Medical System",
     "video":'https://youtu.be/_nqm8FuEdLA?si=dfecR4FjO0gU8Im3',
-    "images":[r"D:\STUDY\Projects\I Care - Comprehensive Medical System\images\Logo.png"],
+    "images":[r"images/Logo.png"],
     "description":"""As a team leader i have distributed the tasks on the team members, i have decided to work with Agile methodology so i was making a meeting each one or two weeks with the team members to presenting the work done
     i was responsible for the AI modules which are:
 

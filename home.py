@@ -179,37 +179,35 @@ st.divider()
 st.header(":material/work: Experience", divider='blue')
 st.write("")
 col1, col2 = st.columns([3,1])
+
 # 1
 with col1:
     st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
-        Data Analytics & Aegntic AI Engineer | Kayfa Academy | internship
+        AI Engineer | Raymed AI | Fulltime | Hybrid
         </div>""",unsafe_allow_html=True)
 with col2:
-    st.markdown("(August 2024 - October 2024)",text_alignment='right')
+    st.markdown("(June 2026 - Present)",text_alignment='right')
+st.write("")
+st.write("""  \n• Architected more than 5 Deep Learning models for healthcare, medical imaging scanning, diseases diagnosis using 
+TensorFlow and Keras. Built Streamlit UI for alpha and Beta test. Deployed models using Flask App and manage API 
+calling with the back-end team to connect with the web app. Designed full documentations for each AI model.""")
+st.divider()
+
+# 2
+with col1:
+    st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
+        Data Analytics & Aegntic AI Engineer | Kayfa Academy | internship | Hubrid
+        </div>""",unsafe_allow_html=True)
+with col2:
+    st.markdown("(June 2026 - August 2026)",text_alignment='right')
 st.write("")
 st.write("""  \n• Analysed and cleaned large amount of data from several sources as csv, databases, Json, excel sheets, merged 
 them together to build analysis ready model and stored results into MongoDB, designed completed interactive 
 dashboards using Plotly and Streamlit to show insights. 
   \n• Developed AI Agents using LangChain, LangGraph, RAG, and Mongo DB to build sales agent that answer business 
 questions, reserved tickets, and recommended courses to the students users.""")
-st.link_button("Projects","https://github.com/BeboFekry/Kayfa-Academy-Internship", type='teriary')
+st.link_button("Projects","https://github.com/BeboFekry/Kayfa-Academy-Internship", type='tertiary')
 st.divider()
-# 2
-col1, col2 = st.columns([3,1])
-with col1:
-    st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
-        Ai Engineer | Electro Pi | internship
-        </div>""",unsafe_allow_html=True)
-with col2:
-    st.markdown("(August 2024 - October 2024)",text_alignment='right')
-st.write("")
-st.write("""  \n• Developed more than 8 AI projects in NLP, LLM, Computer Vision, and Speech Recognition. 
-      \n• Developed NLP Techniques as LLM using LangChain and RAG for making customized chatbots to answer business questions. 
-      \n• Applied the Computer Vision Techniques as OCR for using in invoicing systems and connect it with LLM to extract the data and add it to a database for the system. 
-      \n• Working with other techniques as Speech Recognition (voice to text) and (text to voice), Wav2Lip for Lip Syncing for making human like chatbots.
-      \n• Working individually and as a part of a team using Agile methodology.""")
-st.divider()
-
 
 # 3
 col1, col2 = st.columns([3,1])

@@ -192,7 +192,7 @@ them together to build analysis ready model and stored results into MongoDB, des
 dashboards using Plotly and Streamlit to show insights. 
   \n• Developed AI Agents using LangChain, LangGraph, RAG, and Mongo DB to build sales agent that answer business 
 questions, reserved tickets, and recommended courses to the students users.""")
-st.link("Projects","https://github.com/BeboFekry/Kayfa-Academy-Internship")
+st.link_button("Projects","https://github.com/BeboFekry/Kayfa-Academy-Internship", type='teriary')
 st.divider()
 # 2
 col1, col2 = st.columns([3,1])

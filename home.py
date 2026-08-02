@@ -196,10 +196,10 @@ st.divider()
 col1, col2 = st.columns([3,1])
 with col1:
     st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
-        Data Analytics & Aegntic AI Engineer | Kayfa Academy | internship | Hubrid
+        Data Analytics & Aegntic AI Engineer | Kayfa Academy | internship | Hybrid
         </div>""",unsafe_allow_html=True)
 with col2:
-    st.markdown("(June 2026 - August 2026)",text_alignment='right')
+    st.markdown("(May 2026 - July 2026)",text_alignment='right')
 st.write("")
 st.write("""  \n• Analysed and cleaned large amount of data from several sources as csv, databases, Json, excel sheets, merged 
 them together to build analysis ready model and stored results into MongoDB, designed completed interactive 

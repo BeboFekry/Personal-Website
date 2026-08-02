@@ -178,9 +178,8 @@ st.divider()
 # Experience
 st.header(":material/work: Experience", divider='blue')
 st.write("")
-col1, col2 = st.columns([3,1])
-
 # 1
+col1, col2 = st.columns([3,1])
 with col1:
     st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
         AI Engineer | Raymed AI | Fulltime | Hybrid
@@ -194,6 +193,7 @@ calling with the back-end team to connect with the web app. Designed full docume
 st.divider()
 
 # 2
+col1, col2 = st.columns([3,1])
 with col1:
     st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
         Data Analytics & Aegntic AI Engineer | Kayfa Academy | internship | Hubrid

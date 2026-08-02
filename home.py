@@ -127,7 +127,7 @@ st.markdown(
     ":blue-badge[:material/percent: Statistics]" \
     ":blue-badge[:material/function: Calculus]" \
     ":blue-badge[:material/square_foot: Linear Algebra] " \
-    ":blue-badge[:material/functions: Optimization] " \
+    ":blue-badge[:material/functions: Numerical Optimization] " \
 )
 st.markdown(
     ":material/bar_chart_4_bars: **Data Analysis & Visualization:** " \
@@ -140,7 +140,7 @@ st.markdown(
 st.markdown(
     ":material/code: **Programming:** " \
     ":blue-badge[:material/code: Python] " \
-    ":blue-badge[:material/coffee: Java]" \
+    # ":blue-badge[:material/coffee: Java]" \
     ":blue-badge[:material/data_object: Oblect Oriented Programming - OOP]" \
     ":blue-badge[:material/database: SQL] " \
     ":blue-badge[:material/share: Data Structures & Algorithms] " \
@@ -155,6 +155,7 @@ st.markdown(
     ":material/robot_2: **Natural Language processing NLP:** " \
     ":blue-badge[:material/text_compare: LSTM] " \
     ":blue-badge[:material/robot_2: LangChain]" \
+    ":blue-badge[:material/robot_2: LangGraph]" \
     ":blue-badge[:material/search: RAG]" \
     ":blue-badge[:material/database: Chroma DB]" \
 )
@@ -162,8 +163,8 @@ st.markdown(
     ":material/code: **Dev Tools:** " \
     ":blue-badge[:material/code: Git] " \
     ":blue-badge[:material/api: REST APIs by Flask]" \
-    ":blue-badge[:material/bar_chart: MS Power BI]" \
-    ":blue-badge[:material/developer_mode_tv: Streamlit]" \
+    ":blue-badge[:material/bar_chart: MS PowerBI]" \
+    ":blue-badge[:material/developer_mode_tv: Streamlit UI]" \
 )
 st.markdown(
     ":material/list: **Methodologies:** " \
@@ -177,6 +178,40 @@ st.divider()
 # Experience
 st.header(":material/work: Experience", divider='blue')
 st.write("")
+col1, col2 = st.columns([3,1])
+# 1
+with col1:
+    st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
+        Data Analytics & Aegntic AI Engineer | Kayfa Academy | internship
+        </div>""",unsafe_allow_html=True)
+with col2:
+    st.markdown("(August 2024 - October 2024)",text_alignment='right')
+st.write("")
+st.write("""  \n• Analysed and cleaned large amount of data from several sources as csv, databases, Json, excel sheets, merged 
+them together to build analysis ready model and stored results into MongoDB, designed completed interactive 
+dashboards using Plotly and Streamlit to show insights. 
+  \n• Developed AI Agents using LangChain, LangGraph, RAG, and Mongo DB to build sales agent that answer business 
+questions, reserved tickets, and recommended courses to the students users.""")
+st.link("Projects","https://github.com/BeboFekry/Kayfa-Academy-Internship")
+st.divider()
+# 2
+col1, col2 = st.columns([3,1])
+with col1:
+    st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>
+        Ai Engineer | Electro Pi | internship
+        </div>""",unsafe_allow_html=True)
+with col2:
+    st.markdown("(August 2024 - October 2024)",text_alignment='right')
+st.write("")
+st.write("""  \n• Developed more than 8 AI projects in NLP, LLM, Computer Vision, and Speech Recognition. 
+      \n• Developed NLP Techniques as LLM using LangChain and RAG for making customized chatbots to answer business questions. 
+      \n• Applied the Computer Vision Techniques as OCR for using in invoicing systems and connect it with LLM to extract the data and add it to a database for the system. 
+      \n• Working with other techniques as Speech Recognition (voice to text) and (text to voice), Wav2Lip for Lip Syncing for making human like chatbots.
+      \n• Working individually and as a part of a team using Agile methodology.""")
+st.divider()
+
+
+# 3
 col1, col2 = st.columns([3,1])
 with col1:
     st.markdown(f"""<div style='font-size: 18px;font-weight: bold;color: #333;'>

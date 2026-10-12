@@ -36,7 +36,7 @@ with c1:
         st.markdown("[![Kg](https://raw.githubusercontent.com/BeboFekry/Personal-Website/main/images/4844503.png)](https://www.kaggle.com/bebofekry)")
     with col55:
         st.markdown("[![ST](https://raw.githubusercontent.com/BeboFekry/ChatHub/main/images/streamlit-mark-color.png)](https://abdalleh-fekry.streamlit.app/)")
-    with open ("AI ML Engineer Abdallah Fekry Resume.pdf", "rb") as file:
+    with open ("Abdallah Feky AI-ML-Data Analytics Engineer Resume.pdf", "rb") as file:
         btn = st.download_button(
                 label="⬇️ Download Resume",
                 data=file,
